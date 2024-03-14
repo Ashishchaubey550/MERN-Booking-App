@@ -8,9 +8,10 @@ import DealsSpecials from "./Pages/DealsSpecialsPage.jsx"
 import BrowsePage from "./Pages/BrowsePage.jsx"
 
 
+// import Footer from "./Components/Footer";
+
+
 function App() {
-
-
   return (
     <Routes>
       <Route path="/" element={<Layout/>}/>
@@ -22,8 +23,11 @@ function App() {
       <Route path="/Browse" element={<BrowsePage/>}/>
 
     </Routes>
+    // <>
+    //   <Footer/>
+    // </>
 
   )
 }
 
-export default App
+export default App;
