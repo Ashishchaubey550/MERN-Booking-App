@@ -21,7 +21,8 @@
     "react-router-dom": "^6.22.3",
     "react-spinner": "^0.2.7",
     "router-dom": "^2.2.11",
-    "tailwindcss-colors": "^2.0.0"
+    "tailwindcss-colors": "^2.0.0",
+    "typeface-poppins": "^1.1.13"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
