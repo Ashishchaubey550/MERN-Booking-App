@@ -1,6 +1,9 @@
 
 import Header from "./Header.jsx";
 import HeroBack from "./Components/HeroBack.jsx"
+import Subscribe from "./Components/Subscribe.jsx"
+import Explore from "./Components/Explore.jsx"
+import Footer from "./Components/Footer.jsx"
 import contery from "./assets/contery.png"
 import dekho from "./assets/dekho.png"
 import plane from "./assets/plane.png"
@@ -85,6 +88,9 @@ export default function HeroSection(){
                 <div className=" text-BgOwnBlue w-[330px] h-[32px] pt-3 ml-[456px] text-2xl font-semibold text-center opacity-[100%]">Must-Visit Destinations</div>
                 <div className=" w-[901px] h-[144px] mt-[55px] ml-[151px] font-semibold text-6xl text-center text-HomeText">Exploring the Most Popular Gems Around the Globe</div>
         </div>
+        <Explore/>
+        <Subscribe/>
+        <Footer/>
         </>
 
     );
