@@ -1,0 +1,50 @@
+.explore-container{
+    width: 100%;
+    height: 300px;
+    border: 0.75px solid #FFFFFF;
+    // background-color: black;
+    display: flex;
+    justify-content: space-around;
+    .nature,
+    .cities{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: grey;
+        .content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            span{
+                font-size: 13.53px;
+                font-weight: 700;
+                line-height: 20.3px;
+                color: #FFFDFD;
+            }
+            h2{
+                font-size: 37.59px;
+                font-weight: 700;
+                line-height: 53.42px;
+                color: #FFFFFF;
+            }
+            button{
+                color: #FFFFFF;
+                border: 1px solid white;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 14px;
+            }
+        }
+    }
+    .nature{
+        background-image: url('img/exploreNature.jpeg');
+    }
+    .cities{
+        background-image: url('img/exploreCities.jpeg');
+    }
+}
