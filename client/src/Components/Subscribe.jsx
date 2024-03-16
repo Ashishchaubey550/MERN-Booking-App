@@ -8,8 +8,9 @@ const Subscribe = () => {
   const [email, setEmail] = useState("");
 
 
-    const handleSubscribe = () => {
+    const handleSubscribe = (e) => {
         // Handle subscription logic here
+        e.preventDefault();
         alert('Subscribed!');
       };
 

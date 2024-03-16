@@ -1,0 +1,31 @@
+[
+    {
+      "imageUrl": "img/22d184915ccecd8d9c300910758ab881.jpeg",
+      "rating": 4.5,
+      "name": "New York",
+      "country": "USA",
+      "price": "20$"
+    },
+    {
+      "imageUrl": "img/826b47614f45845eddeecfd78149ccf1.jpeg",
+      "rating": 4.0,
+      "name": "Paris",
+      "country": "France",
+      "price": "30$"
+    },
+    {
+      "imageUrl": "img/73c28c6ccda2de9b68c09a6dc1740288.jpeg",
+      "rating": 4.8,
+      "name": "Tokyo",
+      "country": "Japan",
+      "price": "40$"
+    },
+    {
+      "imageUrl": "img/db54ab13456d8cfc706940b2b4c00ec7.jpeg",
+      "rating": 4.8,
+      "name": "Beijing",
+      "country": "China",
+      "price": "50$"
+    }
+  ]
+  

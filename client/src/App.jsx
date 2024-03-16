@@ -9,10 +9,6 @@ import OwnerRegisterPage from "./Pages/OwnerRegisterPage.jsx"
 import OwnerLoginPage from "./Pages/OwnerLoginPage.jsx"
 import AccountPage from "./Pages/AccountPage.jsx"
 
-
-// import Footer from "./Components/Footer";
-
-
 function App() {
   return (
     <Routes>
@@ -25,15 +21,7 @@ function App() {
       <Route path="/Browse" element={<BrowsePage/>}/>
       <Route path="/OwnerLoginPage" element={<OwnerLoginPage/>}/>
       <Route path="/accountPage/:subpage?" element={<AccountPage/>}/>
-
-
-
-
     </Routes>
-    // <>
-    //   <Footer/>
-    // </>
-
   )
 }
 
