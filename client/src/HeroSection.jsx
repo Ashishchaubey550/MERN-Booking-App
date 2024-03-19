@@ -6,7 +6,8 @@ import Subscribe from "./Components/Subscribe.jsx";
 import ExploreAdvert from "./Components/ExploreAdvert.jsx";
 import WhyUs from "./Components/WhyUs.jsx";
 import Explore from "./Components/Explore.jsx"
-import Footer from "./Components/Footer.jsx"
+// import Footer from "./Components/Footer.jsx"
+import Footer1 from "./Components/Footer1";
 import PopularDestn from "./Components/popularDestn.jsx";
 import contery from "./assets/contery.png"
 import dekho from "./assets/dekho.png"
@@ -108,7 +109,7 @@ export default function HeroSection(){
         <WhyUs/>
         <Explore/>
         <Subscribe/>
-        <Footer/>
+        <Footer1/>
         </>
     );
 }
