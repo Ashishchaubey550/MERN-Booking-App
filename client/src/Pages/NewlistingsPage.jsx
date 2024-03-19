@@ -1,7 +1,12 @@
+import Header from "../Header";
+
 export default function NewlistingsPage(){
     return(
         <div>
-            Newlistinpage 
+            <div  className=" w-full h-screen bg-black">
+            <Header/>
+            </div>
+
         </div>
     );
 }

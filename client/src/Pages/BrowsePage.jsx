@@ -1,7 +1,11 @@
+import Header from "../Header";
 export default function BrowsePage(){
     return(
         <div>
-            BrowsePage
+            <div  className=" w-full h-screen bg-black">
+            <Header/>
+            </div>
+
         </div>
     );
 }

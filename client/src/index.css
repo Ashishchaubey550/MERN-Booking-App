@@ -37,3 +37,44 @@ Holiday{
   height: 100%;
   background-color: rgb(0,0,0,.4);
 } */
+
+.slick-slide>div{
+  margin: 0 10px;
+}
+
+
+/* Custom styles for slider buttons */
+.slick-next {
+  width: 35px; /* Adjust width as needed */
+  height: 35px; /* Adjust height as needed */
+  background-color: rgb(74,165,210); /* Button background color */
+ /* Button text color */
+  border-radius: 20%; /* Makes the buttons circular */
+  margin-right: -15%;
+}
+.slick-next:hover{
+  background-color: rgb(74,165,210);
+}
+
+.slick-prev {
+  width: 35px; /* Adjust width as needed */
+  height: 35px; /* Adjust height as needed */
+  background-color: rgb(74,165,210); /* Button background color */
+  color: white; /* Button text color */
+  border-radius: 20%; /* Makes the buttons circular */
+  margin-left: -15%;
+
+}
+.slick-prev:hover{
+  background-color: rgb(74,165,210);
+}
+/* CSS for slider buttons container */
+.slider-buttons-container {
+  position: absolute;
+  top: 10px; /* Adjust top positioning as needed */
+  left: 10px; /* Adjust left positioning as needed */
+  z-index: 999; /* Ensure the buttons appear above the slider */
+}
+
+
+

@@ -1,7 +1,12 @@
+import Header from "../Header";
+
 export default function DealsSpecials(){
     return(
         <div>
-            DealSpecials 
+            <div  className=" w-full h-screen bg-black">
+            <Header/>
+            </div>
+
         </div>
     );
 }

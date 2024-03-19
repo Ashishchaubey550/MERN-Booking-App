@@ -22,3 +22,17 @@ app.use(cors({origin:["http://localhost:3000"], methods:["GET", "POST", "PUT", "
 app.use(cookieParser());
 app.use(express.json());
 app.use("/", authRoute);
+document.addEventListener("DOMContentLoaded", function() {
+    var lazyImages = document.querySelectorAll('.lazy');
+    var lazyLoad = function() {
+    lazyImages.forEach(function(img) {
+        if (img.getBoundingClientRect().top < window.innerHeight && img.getBoundingClientRect().bottom >= 0) {
+        img.src = img.dataset.src;
+        img.classList.remove('lazy');
+        }
+    });
+    };
+
+    lazyLoad(); 
+    window.addEventListener('scroll', lazyLoad);
+});

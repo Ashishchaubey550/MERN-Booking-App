@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="top">
                     <div className="topLeft">
                         <div className="logo">
-                            <img src="img/lifeVistaLogo.png" alt="" />
+                            <img src="img/lifeVistaLogo.png" alt="" className=" lazy" />
                         </div>
                         <div className="caption">
                             <span>Escape to your dream destination with our vacation rentals.<br/> Find the perfect home away from home for your next<br/> adventure.</span>
