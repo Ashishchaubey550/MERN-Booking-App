@@ -1,0 +1,125 @@
+.vac-rent-card {
+    width: 350px;
+    height: 520px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 70px;
+
+    img {
+        border-radius: 12px;
+    }
+
+    .vac-info {
+        display: flex;
+        flex-direction: column;
+
+        .inq {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+
+            .num-peoples{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                
+                p{
+                    margin-left: 5px;
+                }
+            }
+
+            p{
+                font-size: 14.88px;
+                line-height: 22.32px;
+                font-weight: 400;
+                color: #7D7D7D;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .titl {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+
+            h2{
+                color: #2F2F2F;
+                font-size: 25.71px;
+                line-height: 38.56px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .vac-place{
+        margin-bottom: 15px;
+        p{
+            font-size: 12.4px;
+            font-weight: 400;
+            line-height: 18.59px;
+            color: #7D7D7D;
+            padding: 1px;
+            display: flex;
+            align-items: center;
+        }
+        
+    }
+
+    .vac-details{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .cols{
+            display: flex;
+            flex-direction: column;
+    
+            .row{
+                display: flex;
+                align-items: center;
+                padding: 2px;
+                justify-content: flex-start;
+                margin: 1.5px 0;
+
+                p{
+                    margin-left: 9px;
+                    color: #7D7D7D;
+                }
+            }
+           }
+
+       .col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .row{
+            display: flex;
+            align-items: center;
+            padding: 2px;
+            justify-content: space-between;
+            margin: 1.5px 0;
+
+            span{
+                color: #7D7D7D;
+            }
+        }
+       }
+    }
+
+    button{
+        color: #FFFFFF;
+        background-color: #4aa5d2;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+}

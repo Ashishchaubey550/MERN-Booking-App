@@ -6,18 +6,18 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const popularDestn = () => {
-    const renderCards = () => {
-        return cardsData.map((card, index) => (
-            <div key={index} className="pop-card-container">
-                <Card
-                    imageUrl={card.imageUrl}
-                    name={card.name}
-                    country={card.country}
-                    price={card.price}
-                />
-            </div>
-        ));
-    };
+    // const renderCards = () => {
+    //     return cardsData.map((card, index) => (
+    //         <div key={index} className="pop-card-container">
+    //             <Card
+    //                 imageUrl={card.imageUrl}
+    //                 name={card.name}
+    //                 country={card.country}
+    //                 price={card.price}
+    //             />
+    //         </div>
+    //     ));
+    // };
 
     const splitIntoRows = (cards, rowSize) => {
         const rows = [];

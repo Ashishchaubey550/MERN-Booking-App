@@ -1,0 +1,24 @@
+.vacation-rentals-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+
+    h1{
+        text-align: center;
+        font-size: 44.27px;
+        line-height: 62.9px;
+        font-weight: 700;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .vac-card-row{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        // margin-left: 140px;
+        // margin-right: 140px;
+        margin-bottom: 0px;
+    }
+}
