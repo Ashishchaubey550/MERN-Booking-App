@@ -40,7 +40,7 @@ export default function TopDestination(){
                 <p className=" absolute font-semibold text-white w-[85px] h-[21px] mt-[60px] ml-[-80px]">Vientam</p>
                 <img src={Viatnam6} alt="image" className=" lazy mt-[-115px] ml-[-80px] h-[210px] rounded-2xl" />
             </div> 
-            <div className="w-[182px] h-3 mt-[-406px] ml-[884px]">
+            <div className="w-[182px] h-3 mt-[-406px] ml-[870px]">
                 <p className=" bg-BgOwnBlue absolute w-[30px] mt-[-100px] h-[25px] ml-[60px] rounded-xl text-center">3.5</p>
                 <p className=" absolute font-semibold text-white w-[85px] h-[21px] mt-[70px] ml-[61px]">Vientam</p>
                 <img src={Viatnam5} alt="image" className=" lazy ml-[50px] mt-[-110px] w-[300px] h-[210px] rounded-2xl" />
