@@ -24,22 +24,23 @@ import TopDestination from "./Components/TopDestination.jsx";
 export default function HeroSection(){
     return(
         <>
-        <div className="loader overflow-x-hidden">
+        <div className=" w-full loader overflow-x-hidden">
                 <HeroBack videoSource={Holiday}/>
-        <div className=" absolute top-0">
+        <div className=" absolute top-0 w-full">
         <Header/>
-        <div className=" items-center flex justify-center w-[762px] ml-[368px] mt-[20px] h-[208px] absolute font-semibold text-7xl text-white">
+        <div className=" text-center items-center  flex justify-center w-full  mt-[20px] h-[208px] absolute font-semibold text-7xl text-white">
         Find Next Place
         </div>
-        <div className=" items-center flex justify-center w-[762px] ml-[368px] mt-[100px] h-[208px] absolute font-semibold text-7xl text-white">
+        <div className=" text-center items-center flex justify-center w-full  mt-[100px] h-[208px] absolute font-semibold text-7xl text-white">
         To Visit
         </div>
-        <div className=" items-cente text-centerr flex justify-center w-[706px] h-[48px] ml-[390px] mt-[250px] absolute font-semibold text-sm text-white">
+        <div className=" text-center items-cente justify-center  w-full h-[48px]  mt-[250px] absolute font-semibold text-sm text-white">
         Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie,
         </div>
-        <div  className=" items-center flex justify-center w-[706px] h-[48px] ml-[390px] mt-[275px] absolute font-semibold text-sm text-white">
+        <div  className="  text-center items-center flex justify-center w-full h-[48px]  mt-[275px] absolute font-semibold text-sm text-white">
         musica, sport etc, litot Europa usa li sam vocabular.
         </div>
+
 {/* ************************************Explore*********************************************************** */}
         <div className=" flex explore w-[887px] h-[178px] bg-explorebg absolute  ml-[306px] mt-[372px]">
         <div className=" bg-exploreCont w-[830px] h-[118px] mt-[3%] ml-[3%] rounded-lg">
@@ -79,19 +80,19 @@ export default function HeroSection(){
         <div  className="w-[1600px] h-[280px] bg-BgPartner">
         </div>
 {/* ************************************************************Partner---------------------------- */}
-        <div className="w-[1530px] h-[1010px]  bg-BgPartner flex flex-col text-center">
-            <div className="flex justify-evenly items-center"> 
+        <div className="w-full h-[1010px]  bg-BgPartner flex flex-col text-center">
+            <div className="flex justify-evenly items-center  w-full "> 
                 <div className="w-[107px] h-[37px] bg-BgPartner ">
                     <img className=" lazy" src={FlyEmi} alt="" />
                 </div>
                 <div className="w-[124px] h-[37px]   "><img className=" lazy" src={trivago} alt="" /></div>
                 <div className="w-[120px] h-[37px]  "><img  className=" lazy text-black bg-black" src={Airbnb} alt="" /></div>
                 <div className="w-[128px] h-[37px]  "><img className=" lazy" src={TurkishAir} alt="" /></div>
-                <div className="w-[165px] h-[37px]"><img className="lazy" src={Swiss} alt="" /></div></div>
-
-                <div className=" w-[1250px] h-[750px] ml-[170px] mt-[143px] bg-BgPartner ">
-                <div className=" text-BgOwnBlue w-[330px] h-[32px] pt-3 ml-[456px] text-2xl font-semibold text-center opacity-[100%]">Must-Visit Destinations</div>
-                <div className=" w-[901px] h-[144px] mt-[30px] ml-[151px] font-semibold text-6xl text-center text-HomeText">Exploring the Most Popular Gems Around the Globe</div>
+                <div className="w-[165px] h-[37px]"><img className="lazy" src={Swiss} alt="" /></div>
+                </div>
+                <div className=" w-full h-[750px] mt-[143px] bg-BgPartner justify-center items-center   text-center">
+                <div className=" text-BgOwnBlue h-[32px] pt-3 ml-[40px] justify-center  text-2xl font-semibold text-center opacity-[100%]">Must-Visit Destinations</div>
+                <div className=" w-[901px] h-[144px] mt-[30px] ml-[320px] justify-center font-semibold text-6xl text-center text-HomeText">Exploring the Most Popular Gems Around the Globe</div>
                 <PlaceCards/>
 
         </div>
@@ -101,10 +102,6 @@ export default function HeroSection(){
         </div>
         <Catogries/>
         <TopDestination/>
-        <div className=" w-[1250px] h-[697px] ml-[170px] mt-[143px] bg-BgPartner">
-                <div className=" text-BgOwnBlue w-[330px] h-[32px] pt-3 ml-[456px] text-2xl font-semibold text-center opacity-[100%]">Must-Visit Destinations</div>
-                <div className=" w-[901px] h-[144px] mt-[55px] ml-[151px] font-semibold text-6xl text-center text-HomeText">Exploring the Most Popular Gems Around the Globe</div>
-        </div>
         <VacationRentals/>
         <PopularDestn/>
         <ExploreAdvert/>

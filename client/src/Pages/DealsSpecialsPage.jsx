@@ -1,5 +1,4 @@
 import Header from "../Header";
-
 export default function DealsSpecials(){
     return(
         <div>
