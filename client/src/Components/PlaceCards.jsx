@@ -8,27 +8,26 @@ export default function PlaceCards() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         prevArrow: <button className="slick-pre"></button>,
         nextArrow: <button className="slick-next"></button>
     };
 
     return (
-        <div className="w-full ">
-            <div className="mt-10 ">
+        <div className="w-full bg-gray-600 ">
+            <div className="mt-10  p-10 mx-auto ">
                 <Slider {...settings}>
                     {data.map((d, index) => (
-                        <div key={index} className=" flex flex-col h-[500px] items-center  justify-center text-black rounded- space-x-3 space-y-2">
-                            <div className="rounded-l-xl flex justify-center items-center h-62">
-                                <img src={d.img} alt="" className="lazy w-44 h-48 rounded-3xl" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center text-center space-y-1 p-2">
-                                <p className="text-xl font-semibold">{d.name}</p>
-                                <p className=" justify-center text-center items-center">{`$${d.Price}`}</p>
-                                <p className=" justify-center text-left items-center">{d.review}</p>
-                                <button className=" bg-BgOwnBlue text-white text-lg px-6 py-1 rounded-xl text-left justify-center items-center">Read More</button>
-                            </div>
+                        <div key={index} className=" flex flex-col p-[20px] w-[px] h-[500px] justify-center text-black  space-y-2">
+                            {/* <div className="rounded-l-xl justify-center items-center m-auto h-62"> */}
+                                <img src={d.img} alt="" className="lazy w-[300px] h-48 rounded-3xl" />
+                            {/* </div> */}
+                            {/* <div className="flex flex-col justify-center items-center text-center space-y-1 p-2"> */}
+                                <p className="text-xl text-left font-semibold">{d.name}</p>
+                                <p className=" text-left justify-center  items-center">{`$${d.Price}`}</p>
+                                <p className=" justify-center text-left w-[300px] items-center">{d.review}</p>
+                            {/* </div> */}
                         </div>
                     ))}
                 </Slider>

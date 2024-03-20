@@ -25,57 +25,72 @@ import TopDestination from "./Components/TopDestination.jsx";
 export default function HeroSection(){
     return(
         <>
-        <div className=" w-full loader overflow-x-hidden">
+        <div className=" w-full loader overflow-x-hidden justify-center items-center">
                 <HeroBack videoSource={Holiday}/>
         <div className=" absolute top-0 w-full">
         <Header/>
-        <div className=" text-center items-center  flex justify-center w-full  mt-[20px] h-[208px] absolute font-semibold text-7xl text-white">
-        Find Next Place
+        <div className=" w-full  justify-center items-center text-center">
+            <p className="w-[550px] mt-7 m-auto font-semibold text-7xl leading-normal text-center justify-center text-white">Find Next Place To Visit</p>
         </div>
-        <div className=" text-center items-center flex justify-center w-full  mt-[100px] h-[208px] absolute font-semibold text-7xl text-white">
-        To Visit
-        </div>
-        <div className=" text-center items-cente justify-center  w-full h-[48px]  mt-[250px] absolute font-semibold text-sm text-white">
-        Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie,
-        </div>
-        <div  className="  text-center items-center flex justify-center w-full h-[48px]  mt-[275px] absolute font-semibold text-sm text-white">
-        musica, sport etc, litot Europa usa li sam vocabular.
+        <div className=" w-full  justify-center items-center text-center">
+            <p className="w-[706px] m-auto font-normal text-base leading-6 text-center text-white">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.</p>
         </div>
 
 {/* ************************************Explore*********************************************************** */}
-        <div className=" flex explore w-[887px] h-[178px] bg-explorebg absolute  ml-[306px] mt-[372px]">
-        <div className=" bg-exploreCont w-[830px] h-[118px] mt-[3%] ml-[3%] rounded-lg">
-            <div className=" flex flex-row justify-center">
-                <div className=" w-[149px] h-[43px] mt-[40px] justify-center ml-[13px] text-lg font-semibold">Location</div>
-                <div className=" w-[1px] bg-gray-500 mt-[30px] ml-[13px]"></div>
-                <div className=" w-[149px] h-[43px] mt-[40px] ml-[20px] text-lg font-semibold">Date</div>
-                <div className="w-[1px] bg-gray-500 mt-[30px] ml-[13px]"></div>
-                <div className=" w-[149px] h-[43px] mt-[40px] ml-[13px] text-lg font-semibold">Guest</div>
-                <div>
-                <button className=" bg-BgOwnBlue  w-[129px] h-[33px] mt-[40px] ml-[13px] font-semibold text-lg">Explore Now</button>
-                </div>
+        <div className=" flex explore w-[987px] mt-[47px] ml-[256px] h-[198px] bg-explorebg absolute justify-center m-auto items-center rounded-xl">
+        <div className=" flex bg-exploreCont h-[128px] w-[910px] m-auto  rounded-2xl">
+            <div className=" flex flex-col w-[199px] h-[63px] m-auto text-center justify-center  items-center">
+                <p className="w-[132px] m-auto font-semibold leading-8 text-3xl h-[30px]">Location</p>
+                <p className="w-[200px] text-right m-auto text-md font-normal leading-6 h-[24px]">Where do you wanna go?</p>
             </div>
+            <div className=" w-[1px] h-16 bg-gray-500 m-auto"></div>
+            <div className="w-[199px] h-[63px] m-auto  justify-center items-center">
+                <p className="w-[132px] m-auto font-semibold leading-8 text-3xl h-[30px]">Location</p>
+                <p className="w-[200px] m-auto text-md font-normal text-right leading-6 h-[24px]">Where do you wanna go?</p>
+            </div>
+            <div className=" w-[1px] h-16 bg-gray-500 m-auto"></div>
+            <div className="w-[199px] h-[63px] m-auto  justify-center items-center">
+                <p className="w-[132px] m-auto font-semibold leading-8 text-3xl h-[30px]">Location</p>
+                <p className="w-[200px] m-auto text-md font-normal text-right leading-6 h-[24px]">Where do you wanna go?</p>
+            </div>
+            <div className="w-[143px] h-[52px]  m-auto text-center">
+                <button className=" bg-BgOwnBlue  w-[120px] h-[40px]  font-semibold text-lg leading-4 m rounded-2xl">Explore Now</button>
+            </div> 
+                {/* 
+                <div className=" w-full h-[63px] m-auto text-center">
+                <p className=" w-[149px] h-[43px]  m-auto text-lg font-semibold">Date</p>
+                </div>
+                <div className="w-[1px] h-16 bg-gray-500 m-auto "></div>
+                <div className=" w-full h-[63px] m-auto text-center">
+                <div className=" w-[149px] h-[43px] m-auto text-lg font-semibold">Guest</div>
+                </div>
+
+*/}
         </div>
         </div>
-        <div className=" items-center flex  w-[1200px] rounded-lg bg-BgPartner shadow-md mt-[42%] h-[200px] ml-[140px] space-x-9 justify-center" style={{zIndex:1}}>
-            <div className="w-[295px] h-[120px] mt-[42px] ml-[10px] text-center ">
-            <div className=" w-[35px] h-[15px] mt-[23px] ml-[120px]">
+        <div>
+
+        </div>
+        <div className=" flex flex-col justify-between m-auto ml-5 text-center items-center "> <div className=" items-center flex  w-[1139px] rounded-3xl bg-BgPartner text-center mt-[320px] shadow-md m-auto h-[209px] ml-[195px] justify-between" style={{zIndex:1}}>
+            <div className="w-[295px] h-[137px] m-auto justify-between items-center  text-center  ">
+            <div className=" w-[35px] h-[35px] m-auto mt-[23px] ml-[120px]">
                 <img className=" lazy" src={dekho} alt="img" />
             </div>
-            <div className=" text-BgOwnBlue text-2xl mt-[20px] font-semibold">Plan Your Vacations</div>
+            <div className="w-[] justify-center items-center text-center ">
+            <p className=" text-BgOwnBlue text-3xl mt-[2px] m-auto text-center leading-8 font-semibold">Plan Your Vacations</p>
+            <p className="w-[288px] h-[px] font-normal leading-6 text-center">Explore the country's wonders, from coast to coast. Your adventure awaits</p>
             </div>
-            <div className="w-[295px] h-[120px] mt-[42px] ml-[10px]  text-center ">
-            <div className=" w-[35px] h-[15px] mt-[23px] ml-[120px]">
-                <img className=" lazy" src={contery} alt="img" />
             </div>
-            <div className=" text-BgOwnBlue text-2xl mt-[20px] font-semibold">Plan your Vacations</div>
-            </div>
-            <div className="w-[295px] h-[120px] mt-[42px] ml-[10px]  text-center ">
-            <div className=" w-[35px] h-[15px] mt-[23px] ml-[120px]">
+            <div className="w-[311px] h-[135px] items-center justify-center m-auto text-center ">
+            <div className=" w-[35px] h-[35px] mt-[23px] m-auto ml-[120px]">
                 <img className=" lazy" src={plane} alt="img" />
             </div>
-            <div className=" text-BgOwnBlue text-2xl font-semibold mt-[20px]" >Plan your Vacations</div>
+            <div className="w-[] justify-center items-center text-center ">
+            <p className=" text-BgOwnBlue text-3xl font-semibold m-auto text-center leading-8" >Travel around country</p>
+            <p className="w-[288px] h-[53px] font-normal leading-6 text-center">Unlock your dream getaway with our expert travel planning services</p>
             </div>
+            </div>
+        </div>
         </div>
         </div>
         <div  className="w-[1600px] h-[280px] bg-BgPartner">
