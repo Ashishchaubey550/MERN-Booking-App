@@ -26,6 +26,34 @@
       "name": "Beijing",
       "country": "China",
       "price": "50$"
+    },
+    {
+      "imageUrl": "img/826b47614f45845eddeecfd78149ccf1.jpeg",
+      "rating": 4.0,
+      "name": "Paris",
+      "country": "France",
+      "price": "30$"
+    },
+    {
+      "imageUrl": "img/73c28c6ccda2de9b68c09a6dc1740288.jpeg",
+      "rating": 4.8,
+      "name": "Tokyo",
+      "country": "Japan",
+      "price": "40$"
+    },
+    {
+      "imageUrl": "img/826b47614f45845eddeecfd78149ccf1.jpeg",
+      "rating": 4.0,
+      "name": "Paris",
+      "country": "France",
+      "price": "30$"
+    },
+    {
+      "imageUrl": "img/73c28c6ccda2de9b68c09a6dc1740288.jpeg",
+      "rating": 4.8,
+      "name": "Tokyo",
+      "country": "Japan",
+      "price": "40$"
     }
   ]
   

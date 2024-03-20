@@ -5,9 +5,9 @@ import VacationRentals from "./Components/vacationRentals.jsx";
 import Subscribe from "./Components/Subscribe.jsx";
 import ExploreAdvert from "./Components/ExploreAdvert.jsx";
 import WhyUs from "./Components/WhyUs.jsx";
+import BestServices from "./Components/BestServices.jsx";
 import Explore from "./Components/Explore.jsx"
-// import Footer from "./Components/Footer.jsx"
-import Footer1 from "./Components/Footer1";
+import Footer from "./Components/Footer.jsx";
 import PopularDestn from "./Components/popularDestn.jsx";
 import contery from "./assets/contery.png"
 import dekho from "./assets/dekho.png"
@@ -101,7 +101,7 @@ export default function HeroSection(){
                 <div className="w-[107px] h-[37px] bg-BgPartner ">
                     <img className=" lazy" src={FlyEmi} alt="" />
                 </div>
-                <div className="w-[124px] h-[37px]   "><img className=" lazy" src={trivago} alt="" /></div>
+                <div className="w-[124px] h-[37px]   "><img className=" lazy" src={trivago} alt=""/></div>
                 <div className="w-[120px] h-[37px]  "><img  className=" lazy text-black bg-black" src={Airbnb} alt="" /></div>
                 <div className="w-[128px] h-[37px]  "><img className=" lazy" src={TurkishAir} alt="" /></div>
                 <div className="w-[165px] h-[37px]"><img className="lazy" src={Swiss} alt="" /></div>
@@ -122,9 +122,10 @@ export default function HeroSection(){
         <PopularDestn/>
         <ExploreAdvert/>
         <WhyUs/>
+        <BestServices/>
         <Explore/>
         <Subscribe/>
-        <Footer1/>
+        <Footer/>
         </>
     );
 }

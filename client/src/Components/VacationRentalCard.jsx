@@ -27,8 +27,7 @@ const VacationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths,
               }}
             />
             <p>
-              {peoples}
-              People Going
+              {peoples} People Going
             </p>
           </div>
         </div>

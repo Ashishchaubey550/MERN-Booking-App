@@ -13,16 +13,14 @@
         margin-top: 20px;
         margin-left: 80px;
         margin-bottom: 0px;
-    
-    
+
     .pop-card-item {
         width: calc(25% - 10px); /* Adjust width to accommodate margin */
     }
 }
 
-
     .pop-heading{
-        margin: 60px 80px;
+        margin: 40px 80px;
         display: flex;
         justify-content: space-between;
         span{
@@ -34,15 +32,22 @@
         button{
             margin-right: 50px;
         }
+        .icons{
+            display: flex;
+            padding: 5px;
+            margin: 4px;
+        }
     }
 
     .pop-card-container{
         display: flex;
         height: 275px;
+        width: 100%;
         justify-content: space-between;
         // margin: 80px;
         margin-top: 0px;
         margin-left: 80px;
         margin-right: 80px;
+        margin-bottom: 100px;
     }
 }

@@ -45,7 +45,8 @@ export default function Catogries(){
                             </button>
                             </div>
                             <p>{d.name}</p>
-                        </div>))}</Slider>
+                        </div>))}
+                    </Slider>
                     </div>
                 </div>
             </div>
