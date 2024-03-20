@@ -11,12 +11,15 @@ import PopularDestn from "../Components/popularDestn.jsx";
 import TopDestination from "../Components/TopDestination.jsx";
 // import PlaceCards from "./Components/PlaceCards.jsx"
 import Catogries from "../Components/Catogries.jsx"
+import MustVisitDestn from '../Components/MustVisitDestn.jsx';
+import TrendyVacation from '../Components/TrendyVacation.jsx';
 
 const HomePage = () => {
   return (
     <div>
         <HeroSection/>
         {/*  */}
+        <MustVisitDestn/>
         <Catogries/>
         <TopDestination/>
         <VacationRentals/>
@@ -25,6 +28,7 @@ const HomePage = () => {
         <WhyUs/>
         <BestServices/>
         <Explore/>
+        <TrendyVacation/>
         <Subscribe/>
         <Footer/>
     </div>

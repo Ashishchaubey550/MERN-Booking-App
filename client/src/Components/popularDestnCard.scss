@@ -1,15 +1,15 @@
 .destn-card {
-    width: 302px;
-    height: 332px;
+    width: 362px;
+    height: 362px;
     background-color: white;
-    padding: 6px;
+    padding: 8px;
     border-radius: 12px;
 
     .destination-image {
         border-radius: 12px;
         margin: auto;
-        width: 333px;
-        height: 190px;
+        width: 362px;
+        height: 230px;
     }
 
     .destination-info {
@@ -32,7 +32,8 @@
     .bottom-section {
         display: flex;
         justify-content: space-between;
-        margin: 40px 10px;
+        align-items: center;
+        margin: 12px 10px;
         .price {
             p {
                 font-size: 18.1px;
