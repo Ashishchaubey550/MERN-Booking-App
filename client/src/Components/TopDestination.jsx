@@ -7,58 +7,79 @@ import ViatnamWaterFall from "../assets/ViatnamWaterFall.jpeg"
 
 export default function TopDestination(){
     return(
-        <div className="w-full  h-[750px] mt-[60px] bg-exploreCont">
-            <div className="w-full  h-[168px] mt-[3px]  flex flex-col justify-center items-center text-center space-y-2">
-                <div className=" w-full justify-center items-center h-[70px] mt-[3%] text-BgOwnBlue font-semibold text-6xl text-center">
-                Top Destinations
-                </div>
-                <div className="w-full  h-[17px] mt-[24px] text-center items-center justify-center">
-                Sost Brilliant reasons Entrada should be your one-stop-shop!
-                </div>
-                <div className="w-full  h-[35px] mt-[170px] space-x-3">
-                    <button className="w-[80px] h-[25px] bg-BgOwnBlue p-auto border-s rounded-xl gap-2 text-center">London</button>
-                    <button className="w-[80px] h-[25px] bg-BgOwnBlue p-auto border-s rounded-xl gap-2 text-center">Bangkok</button>
-                    <button className="w-[80px] h-[25px] bg-BgOwnBlue p-auto border-s rounded-xl gap-2 text-center">England</button>
-                    <button className="w-[80px] h-[25px] bg-BgOwnBlue p-auto border-s rounded-xl gap-2 text-center">Singapore</button>
-                    <button className="w-[80px] h-[25px] bg-BgOwnBlue p-auto border-s rounded-xl gap-2 text-center">Italy</button>
-                </div>
-            </div>
-            <div className=" items-center justify-center text-center ml-[-100px]  h-full w-full">
-            <div className="w-[350px]  items-center justify-center h-[511px] mt-[50px] ml-[450px]">
-                <p className=" absolute font-semibold text-white w-[85px] h-[21px] mt-[400px] ml-[200px]">Vientam</p>
-                <p className=" bg-BgOwnBlue absolute w-[30px] mt-[20px] h-[25px] ml-[220px] rounded-xl text-center">3.5</p>
-                <img src={ViatnamWaterFall} alt="image" className=" justify-center items-center lazy rounded-2xl ml-[200px]" />
-            </div>
-            <div className="w-full justify-center h-[300px] mt-[-510px] ml-[810px]">
-                <p className=" absolute font-semibold text-white w-[85px] h-[21px] mt-[170px] ml-[230px]">Vientam</p>
-                <p className=" bg-BgOwnBlue absolute w-[30px] mt-[20px] h-[25px] ml-[230px] rounded-xl text-center">3.5</p>
-                <img src={Viatnam} alt="image" className=" lazy w-[300px] h-[200px] ml-[220px] rounded-3xl" />
-            </div> 
-            <div className=" flex flex-col justify-center items-center ">
-            <div className="w-[118px] h-[400px] mt-[36px] ml-[810px]">
-                <p className=" bg-BgOwnBlue absolute w-[30px]  mt-[-100px] h-[25px] ml-[-70px] rounded-xl text-center">3.5</p>
-                <p className=" absolute font-semibold text-white w-[85px] h-[21px] mt-[60px] ml-[-80px]">Vientam</p>
-                <img src={Viatnam6} alt="image" className=" lazy mt-[-115px] ml-[-80px] h-[210px] rounded-2xl" />
-            </div> 
-            <div className="w-[182px] h-3 mt-[-406px] ml-[870px]">
-                <p className=" bg-BgOwnBlue absolute w-[30px] mt-[-100px] h-[25px] ml-[60px] rounded-xl text-center">3.5</p>
-                <p className=" absolute font-semibold text-white w-[85px] h-[21px] mt-[70px] ml-[61px]">Vientam</p>
-                <img src={Viatnam5} alt="image" className=" lazy ml-[50px] mt-[-110px] w-[300px] h-[210px] rounded-2xl" />
-            </div>
-            </div>
-            <div className=" flex flex-col justify-evenly ml-[40px]">
-            <div className="w-full  h-[130px] ml-[40px]">
-                <p className=" bg-BgOwnBlue absolute w-[30px] mt-[-320px] h-[25px] ml-[320px] rounded-xl text-center">3.5</p>
-                <p className=" absolute font-semibold text-white w-[85px] h-[21px] mt-[-160px] ml-[320px]">Vientam</p>
-                <img src={Viatnam4} alt="image" className="w-[250px] h-[217px] mt-[-340px] ml-[310px] lazy rounded-2xl" />
-            </div>
-            <div className="w-full h-[50px]  ml-[40px]">
-                <p className=" bg-BgOwnBlue absolute w-[30px] mt-[-220px] h-[25px] ml-[320px] rounded-xl text-center">3.5</p>
-                <p className=" absolute font-semibold text-white w-[85px] h-[21px] mt-[-65px] ml-[310px]">Vientam</p>
-                <img src={Viatnam3} alt="image" className=" lazy w-[250px] mt-[-240px] ml-[310px] h-[200px] rounded-2xl" />
-            </div>
-            </div>
+    <div className="w-full h-[850px] bg-bgCatorgies flex flex-col justify-center m-auto items-center">
+        <div className=" m-auto justify-center text-center items-center  w-[551px] h-[168px]">
+            <p className=" font-semibold w-[479px] m-auto p-3 text-6xl leading-[69px] text-BgOwnBlue text-center h-[70px]">Top Destinations</p>
+            <p className=" m-auto p-6 font-normal leading-4 text-[16px] w-[483px] h-[17px] text-gray-400">Sost Brilliant reasons Entrada should be your one-stop-shop!</p>
+            <div className="w-[551px] h-[35px] m-auto justify-between items-center ">
+                <button className="w-[100px] m-1  border-[2px] rounded-[31px] border-BgOwnBlue h-[35px]"><p className=" text-center leading-[14px] font-normal p-0 m-auto text-BgOwnBlue w-[63px] h-[15px] " >London</p></button>
+                <button className="w-[104px] m-1  border-[2px] rounded-[31px] border-BgOwnBlue h-[35px]"><p className=" text-center leading-[14px] font-normal p-0 m-auto text-BgOwnBlue w-[63px] h-[15px] ">Bangkok</p></button>
+                <button className="w-[101px] m-1 border-[2px] rounded-[31px] border-BgOwnBlue h-[35px]"><p className=" text-center leading-[14px] font-normal p-0 m-auto text-BgOwnBlue w-[60px] h-[15px] ">England</p></button>
+                <button className=" w-[117px] m-1  border-[1.05px] rounded-[31px] border-BgOwnBlue h-[35px]"><p className=" text-center leading-[14px] font-normal p-0 m-auto text-BgOwnBlue w-[63px] h-[15px] ">Singapore</p></button>
+                <button className="w-[72px] rounded-3xl border-[1.05px] border-BgOwnBlue m-1
+                h-[35px]"><p className=" text-BgOwnBlue text-center leading-[14px]  text-sm font-normal p-0 m-auto w-[31px] h-[15px]">Italy</p></button>
             </div>
         </div>
+        <div className="w-full flex mt-14 h-[550px]  text-center gap-6  justify-center items-center m-auto">
+            <div className=" flex  gap-6 ">
+                <div className=" flex  flex-col m-auto gap-6 justify-center items-center">
+                    <div className=" relative m-auto items-center justify-center">
+                        <div className=" absolute bg-BgOwnBlue rounded-xl mt-3 ml-3 text-center w-[44px] h-[25px] inset-0 flex items-center justify-center">
+                        <p className="  absolute text-white w-[23px] h-[15px] m-auto text-sm font-medium leading-3">3.5</p>
+                        </div>
+                        <p className=" absolute w-[85px] h-[21px] m-auto text-center justify-center mt-[210px] ml-5 text-white font-semibold text-xl leading-5 ">Vientam</p>
+                        <p className=" absolute w-[56px] h-[15px] m-auto text-center justify-center mt-[235px] ml-5 text-white leading-3 text-sm font-normal">Worefall</p>
+                        <img src={Viatnam6} alt="" className="w-[283px] rounded-3xl h-[262px]" />
+                    </div>
+                    <div className=" relative m-auto items-center justify-center">
+                        <div className=" absolute bg-BgOwnBlue rounded-xl mt-3 ml-3 text-center w-[44px] h-[25px] inset-0 flex items-center justify-center">
+                        <p className="  absolute text-white w-[23px] h-[15px] m-auto text-sm font-medium leading-3">3.5</p>
+                        </div>
+                        <p className=" absolute w-[85px] h-[21px] m-auto text-center justify-center mt-[210px] ml-5 text-white font-semibold text-xl leading-5 ">Vientam</p>
+                        <p className=" absolute w-[56px] h-[15px] m-auto text-center justify-center mt-[235px] ml-5 text-white leading-3 text-sm font-normal">Worefall</p>
+                        <img src={Viatnam5} alt="" className=" rounded-3xl w-[282px] h-[262px]" />
+                        
+                    </div>
+                </div>
+                <div className="relative m-auto items-center justify-center">
+                    <div className=" absolute bg-BgOwnBlue rounded-xl mt-3 ml-3 text-center w-[44px] h-[25px] inset-0 flex items-center justify-center">
+                        <p className="  absolute text-white w-[23px] h-[15px] m-auto text-sm font-medium leading-3">3.5</p>
+                    </div>
+                    <p className=" absolute w-[85px] h-[21px] m-auto text-center justify-center mt-[490px] ml-5 text-white font-semibold text-xl leading-5">Vientam</p>
+                    <p className=" absolute w-[56px] h-[15px] m-auto text-center justify-center mt-[515px] ml-5 text-white leading-3 text-sm font-normal ">Worefall</p>
+                    <img src={ViatnamWaterFall} alt="" className="rounded-3xl w-[387px] h-[549px]" />
+                </div>
+
+            </div>
+            <div className="  gap-3  flex flex-col ">
+                <div className=" relative justify-center m-auto gap-6 items-center">
+                    <div className=" absolute bg-BgOwnBlue rounded-xl mt-3 ml-3 text-center w-[44px] h-[25px] inset-0 flex items-center justify-center">
+                        <p className="  absolute text-white w-[23px] h-[15px] m-auto text-sm font-medium leading-3">3.5</p>
+                    </div>
+                    <p className=" absolute w-[85px] h-[21px] m-auto text-center justify-center mt-[190px] ml-5 text-white font-semibold text-xl leading-5">Vientam</p>
+                    <p className=" absolute w-[56px] h-[15px] m-auto text-center justify-center mt-[215px] ml-5 text-white leading-3 text-sm font-normal ">Worefall</p>
+                    <img src={Viatnam} alt="" className="w-[492px] h-[262px] rounded-3xl" />
+                </div>
+                <div className=" flex justify-center gap-6 items-center m-auto">
+                    <div className="  relative">
+                        <div className=" absolute bg-BgOwnBlue rounded-xl mt-3 ml-3 text-center w-[44px] h-[25px] inset-0 flex items-center justify-center">
+                        <p className="  absolute text-white w-[23px] h-[15px] m-auto text-sm font-medium leading-3">3.5</p>
+                        </div>
+                        <p className=" absolute w-[85px] h-[21px] m-auto text-center justify-center mt-[230px] ml-5 text-white font-semibold text-xl leading-5">Vientam</p>
+                        <p className=" absolute w-[56px] h-[15px] m-auto text-center justify-center mt-[250px] ml-5 text-white leading-3 text-sm font-normal ">Worefall</p>
+                        <img src={Viatnam3} alt="" className="w-[178px] rounded-3xl h-[275px]" />
+                    </div>
+                    <div className="  relative">
+                        <div className=" absolute bg-BgOwnBlue rounded-xl mt-3 ml-3 text-center w-[44px] h-[25px] inset-0 flex items-center justify-center">
+                        <p className="  absolute text-white w-[23px] h-[15px] m-auto text-sm font-medium leading-3">3.5</p>
+                        </div>
+                        <p className=" absolute w-[85px] h-[21px] m-auto text-center justify-center mt-[230px] ml-5 text-white font-semibold text-xl leading-5">Vientam</p>
+                        <p className=" absolute w-[56px] h-[15px] m-auto text-center justify-center mt-[255px] ml-5 text-white leading-3 text-sm font-normal ">Worefall</p>    
+                        <img src={Viatnam4} alt="" className=" rounded-3xl w-[282px] h-[275px]" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     );
 }
