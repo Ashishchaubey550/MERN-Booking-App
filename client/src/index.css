@@ -33,31 +33,32 @@ Holiday{
 } */
 
 .slick-slide>div{
-  margin: 0 10px;
+  /* margin: 10px; */
+  padding: 10px;
 }
 
 
 /* Custom styles for slider buttons */
 .slick-next {
-  width: 35px; /* Adjust width as needed */
-  height: 35px; /* Adjust height as needed */
-  background-color: rgb(74,165,210); /* Button background color */
+  width: 45px; /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  /* background-color: rgb(74,165,210); Button background color */
  /* Button text color */
+ background-color: rgb(74,165,210);
   border-radius: 20%; /* Makes the buttons circular */
-  margin-right: -15%;
+  margin-right: -6%;
 }
 .slick-next:hover{
   background-color: rgb(74,165,210);
 }
 
 .slick-prev {
-  width: 35px; /* Adjust width as needed */
-  height: 35px; /* Adjust height as needed */
+  width: 45px; /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
   background-color: rgb(74,165,210); /* Button background color */
   color: white; /* Button text color */
-  border-radius: 20%; /* Makes the buttons circular */
-  margin-left: -15%;
-
+  border-radius: 20%;/* Makes the buttons circular */
+  margin-left: -7%;
 }
 .slick-prev:hover{
   background-color: rgb(74,165,210);

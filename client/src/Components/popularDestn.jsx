@@ -1,58 +1,59 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import Card from "./popularDestnCard.jsx";
+import data from "../Dummy Data/popularDestn.json";
 import "./popularDestn.scss";
-import cardsData from "../Dummy Data/popularDestn.json";
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import { FaAngleLeft } from "react-icons/fa6";
+import { FaAngleRight } from "react-icons/fa6";
 
 const popularDestn = () => {
-    // const renderCards = () => {
-    //     return cardsData.map((card, index) => (
-    //         <div key={index} className="pop-card-container">
-    //             <Card
-    //                 imageUrl={card.imageUrl}
-    //                 name={card.name}
-    //                 country={card.country}
-    //                 price={card.price}
-    //             />
-    //         </div>
-    //     ));
-    // };
-
-    const splitIntoRows = (cards, rowSize) => {
-        const rows = [];
-        for (let i = 0; i < cards.length; i += rowSize) {
-            rows.push(cards.slice(i, i + rowSize));
-        }
-        return rows;
+    const sliderRef = useRef(null);
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+        // prevArrow: <CustomPrevArrow/>,
+        // nextArrow: <CustomNextArrow/>
     };
 
+    const handlePrev = () => {
+        sliderRef.current.slickPrev();
+    }
+    const handleNext = () => {
+        sliderRef.current.slickNext();
+    }
+
     return (
-        <div className="pop-container">
-            <div className="pop-heading">
-                <span>Find Popular<br/>Destination</span>
-                <button>arrow</button>
-                {/* <ArrowBackIos/>
-                <ArrowForwardIos/> */}
-                
-            </div>
-            {/* Render each row of cards */}
-            {splitIntoRows(cardsData, 4).map((row, index) => (
-                <div key={index} className="pop-card-row">
-                    {row.map((card, cardIndex) => (
-                        <div key={cardIndex} className="pop-card-item">
-                            <Card
-                                imageUrl={card.imageUrl}
-                                name={card.name}
-                                country={card.country}
-                                price={card.price}
-                            />
-                        </div>
-                    ))}
+        <div className='popular-destn-container'>
+            <div className="destn-cont">
+                <div className='popular-destn-heading'>
+                    <h2 className="">Find Popular<br /> Destinations</h2>
+                    <div className="arrow-icons">
+                        <FaAngleLeft onClick={handlePrev} style={{ margin: '5px', fontSize: '40px', color: 'white', border: '1px solid white', borderRadius: '20px', padding: '4px', cursor: 'pointer' }} />
+                        <FaAngleRight onClick={handleNext} style={{ margin: '5px', fontSize: '40px', color: 'white', padding: '4px', cursor: 'pointer' }} />
+                    </div>
                 </div>
-            ))}
+                <div className='pop-card-container'>
+                    <Slider ref={sliderRef} {...settings}>
+                        {data.map((card, index) => (
+                            <div key={index}>
+                                <Card
+                                    imageUrl={card.imageUrl}
+                                    name={card.name}
+                                    country={card.country}
+                                    price={card.price}
+                                />
+                            </div>))}
+                    </Slider>
+                </div>
+            </div>
         </div>
-    );
+    )
 }
 
 export default popularDestn;
