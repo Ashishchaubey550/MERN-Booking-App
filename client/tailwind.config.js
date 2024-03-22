@@ -15,18 +15,9 @@ export default {
         'PartName': 'rgba(134, 134, 134, 1)',
         'HomeText': 'rgba(54, 54, 54, 1)',
         'bgCatorgies':' rgba(233, 233, 233,1)',
-<<<<<<< Updated upstream
-        'overlay': 'rgb(0,0,0,10)',
         'Bgphto':'#4AA5D2',
         'GetText':'rgba(24, 30, 75, 1)',
         'BlueGrey':'rgba(94, 98, 130, 1)',
-
-
-
-
-=======
-        'overlay': 'rgb(0,0,0,10),'
->>>>>>> Stashed changes
       },
     },
   },

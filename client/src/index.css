@@ -5,7 +5,6 @@
 *{
   margin: 0;
   padding: 0;
-  /* font-family: "Poppins", sans-serif; */
 }
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
@@ -33,19 +32,13 @@ Holiday{
 } */
 
 .slick-slide>div{
-  /* margin: 10px; */
   padding: 10px;
 }
-
-
-/* Custom styles for slider buttons */
 .slick-next {
-  width: 45px; /* Adjust width as needed */
-  height: 45px; /* Adjust height as needed */
-  /* background-color: rgb(74,165,210); Button background color */
- /* Button text color */
- background-color: rgb(74,165,210);
-  border-radius: 20%; /* Makes the buttons circular */
+  width: 45px; 
+  height: 45px; 
+  background-color: rgb(74,165,210);
+  border-radius: 20%; 
   margin-right: -3%;
 }
 .slick-next:hover{
@@ -53,22 +46,21 @@ Holiday{
 }
 
 .slick-prev {
-  width: 45px; /* Adjust width as needed */
-  height: 45px; /* Adjust height as needed */
-  background-color: rgb(74,165,210); /* Button background color */
-  color: white; /* Button text color */
-  border-radius: 20%;/* Makes the buttons circular */
+  width: 45px; 
+  height: 45px; 
+  background-color: rgb(74,165,210); 
+  color: white;
+  border-radius: 20%;
   margin-left: -5%;
 }
 .slick-prev:hover{
   background-color: rgb(74,165,210);
 }
-/* CSS for slider buttons container */
 .slider-buttons-container {
   position: absolute;
-  top: 10px; /* Adjust top positioning as needed */
-  left: 10px; /* Adjust left positioning as needed */
-  z-index: 999; /* Ensure the buttons appear above the slider */
+  top: 10px; 
+  left: 10px; 
+  z-index: 999; 
 }
 
 

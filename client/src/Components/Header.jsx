@@ -1,4 +1,4 @@
-import lifevista from "./assets/lifevista.png"
+import lifevista from "../assets/lifevista.png"
 import { Link } from "react-router-dom";
 export default function Header(){
     return(

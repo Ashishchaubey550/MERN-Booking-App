@@ -14,18 +14,23 @@ import Catogries from "../Components/Catogries.jsx"
 import MustVisitDestn from '../Components/MustVisitDestn.jsx';
 import TrendyVacation from '../Components/TrendyVacation.jsx';
 import Banner from '../Components/Banner.jsx';
+import TravelPartner from '../Components/TravelPartner.jsx';
+import OurStories from '../Components/OurStories.jsx';
+import TestimoCard from '../Components/TestimoCard.jsx';
 
 const HomePage = () => {
   return (
     <div>
-        {/* <HeroSection/> */}
-        {/*  */}
-        <Banner/>
-        <MustVisitDestn/>
+        <HeroSection/>
+        <TravelPartner/>
+        {/* <MustVisitDestn/> */}
         <Catogries/>
         {/* <TopDestination/> */}
         <VacationRentals title="LifeVista Vacation Rentals"/>
         <PopularDestn/>
+        <TopDestination/>
+        <OurStories/>
+        <TestimoCard/>
         <ExploreAdvert/>
         <WhyUs/>
         <BestServices/>
