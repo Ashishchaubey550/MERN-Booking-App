@@ -32,6 +32,7 @@ const MustVisitDestn = () => {
                                     place={card.place}
                                     price={card.price}
                                     quote={card.quote}
+                                    star={card.star}
                                 />
                             </div>))}
                     </Slider>

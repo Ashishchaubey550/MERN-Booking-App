@@ -46,7 +46,7 @@ Holiday{
  /* Button text color */
  background-color: rgb(74,165,210);
   border-radius: 20%; /* Makes the buttons circular */
-  margin-right: -6%;
+  margin-right: -3%;
 }
 .slick-next:hover{
   background-color: rgb(74,165,210);
@@ -58,7 +58,7 @@ Holiday{
   background-color: rgb(74,165,210); /* Button background color */
   color: white; /* Button text color */
   border-radius: 20%;/* Makes the buttons circular */
-  margin-left: -7%;
+  margin-left: -5%;
 }
 .slick-prev:hover{
   background-color: rgb(74,165,210);

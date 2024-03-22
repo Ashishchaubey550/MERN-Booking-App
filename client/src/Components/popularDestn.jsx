@@ -5,8 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Card from "./popularDestnCard.jsx";
 import data from "../Dummy Data/popularDestn.json";
 import "./popularDestn.scss";
-import { FaAngleLeft } from "react-icons/fa6";
-import { FaAngleRight } from "react-icons/fa6";
+import { FaAngleLeft, FaAngleRight} from "react-icons/fa6";
 
 const popularDestn = () => {
     const sliderRef = useRef(null);
@@ -17,8 +16,6 @@ const popularDestn = () => {
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
-        // prevArrow: <CustomPrevArrow/>,
-        // nextArrow: <CustomNextArrow/>
     };
 
     const handlePrev = () => {

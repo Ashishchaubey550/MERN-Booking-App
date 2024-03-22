@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroSection from '../Components/HeroSection.jsx';
-import VacationRentals from "../Components/vacationRentals.jsx";
+import VacationRentals from "../Components/VacationRentals.jsx";
 import Subscribe from "../Components/Subscribe.jsx";
 import ExploreAdvert from "../Components/ExploreAdvert.jsx";
 import WhyUs from "../Components/WhyUs.jsx";
@@ -13,16 +13,18 @@ import TopDestination from "../Components/TopDestination.jsx";
 import Catogries from "../Components/Catogries.jsx"
 import MustVisitDestn from '../Components/MustVisitDestn.jsx';
 import TrendyVacation from '../Components/TrendyVacation.jsx';
+import Banner from '../Components/Banner.jsx';
 
 const HomePage = () => {
   return (
     <div>
-        <HeroSection/>
+        {/* <HeroSection/> */}
         {/*  */}
+        <Banner/>
         <MustVisitDestn/>
         <Catogries/>
-        <TopDestination/>
-        <VacationRentals/>
+        {/* <TopDestination/> */}
+        <VacationRentals title="LifeVista Vacation Rentals"/>
         <PopularDestn/>
         <ExploreAdvert/>
         <WhyUs/>

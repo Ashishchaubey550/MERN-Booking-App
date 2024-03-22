@@ -11,8 +11,9 @@ import { MdOutlineReviews, MdReviews } from "react-icons/md";
 import { LiaStreetViewSolid } from "react-icons/lia";
 import { CiCalendar } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
+import { Rate } from 'antd';
 
-const VacationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths, sleeps, views, reviews, home}) => {
+const divationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths, sleeps, views, reviews, home, star}) => {
   return (
     <div className="vac-rent-card">
       <img className="vac-image" src={imageUrl} alt="Destination" />
@@ -33,7 +34,7 @@ const VacationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths,
         </div>
         <div className="titl">
           <h2>{title}</h2>
-          <span>⭐⭐⭐⭐⭐</span>
+          <Rate value={star} allowHalf/>
         </div>
       </div>
       <div className="vac-place">
@@ -41,56 +42,56 @@ const VacationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths,
         <p><IoLocationOutline style={{marginRight: '4px'}}/>{place}</p>
       </div>
       <div className="vac-details">
-        <vac className="cols">
-            <vac className="row">
+        <div className="cols">
+            <div className="row">
                 <FaBed style={{color:'#7D7D7D'}}/>
                 <p>Beds:</p>
-            </vac>
-            <vac className="row">
+            </div>
+            <div className="row">
                 <FaBath style={{color:'#7D7D7D'}}/>
                 <p>Baths:</p>
-            </vac>
-            <vac className="row">
+            </div>
+            <div className="row">
                 <GiNightSleep style={{color:'#7D7D7D'}}/>
                 <p>Sleeps:</p>
-            </vac>
-        </vac>
-        <vac className="col">
-            <vac className="row">
+            </div>
+        </div>
+        <div className="col">
+            <div className="row">
                 <span>{beds}</span>
-            </vac>
-            <vac className="row">
+            </div>
+            <div className="row">
                 <span>{baths}</span>
-            </vac>
-            <vac className="row">
+            </div>
+            <div className="row">
                 <span>{sleeps}</span>
-            </vac>
-        </vac>
-        <vac className="cols">
-            <vac className="row">
+            </div>
+        </div>
+        <div className="cols">
+            <div className="row">
                 <FaHome style={{color:'#7D7D7D'}}/>
                 <p>Home:</p>
-            </vac>
-            <vac className="row">
+            </div>
+            <div className="row">
                 <MdOutlineReviews style={{color:'#7D7D7D'}}/>
                 <p>Reviews:</p>
-            </vac>
-            <vac className="row">
+            </div>
+            <div className="row">
                 <LiaStreetViewSolid style={{color:'#7D7D7D'}}/>
                 <p>Views:</p>
-            </vac>
-        </vac>
-        <vac className="col">
-            <vac className="row">
+            </div>
+        </div>
+        <div className="col">
+            <div className="row">
                 <span>{home}</span>
-            </vac>
-            <vac className="row">
+            </div>
+            <div className="row">
                 <span>{reviews}</span>
-            </vac>
-            <vac className="row">
+            </div>
+            <div className="row">
                 <span>{views}</span>
-            </vac>
-        </vac>   
+            </div>
+        </div>   
       </div>
       <button>
         <CiSearch style={{ marginRight: "5px" }} />
@@ -100,4 +101,4 @@ const VacationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths,
   );
 };
 
-export default VacationRentalCard;
+export default divationRentalCard;

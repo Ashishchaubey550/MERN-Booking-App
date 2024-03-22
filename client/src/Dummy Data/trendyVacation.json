@@ -1,0 +1,32 @@
+[
+    {
+        "imgUrl":"img/baali.jpeg",
+        "city":"Bali",
+        "country":"Thailand",
+        "days":"8",
+        "peoples":"155",
+        "price":"70$",
+        "discount":"100$",
+        "quote":"Escape to the tropical paradise of Bali for an unforgettable vacation experience. With its pristine beaches, lush jungles, and vibrant culture, Bali offers a perfect blend of relaxation and adventure."
+    },
+    {
+        "imgUrl":"img/london.jpeg",
+        "city":"London",
+        "country":"United Kingdom",
+        "days":"10",
+        "peoples":"128",
+        "price":"130$",
+        "discount":"180$",
+        "quote":"Discover the vibrant energy and rich history of London on your next vacation. From iconic landmarks like Big Ben and the Tower Bridge to world-class museums and bustling markets, immerse yourself in the cultural tapestry."
+    },
+    {
+        "imgUrl":"img/switzerland.jpeg",
+        "city":"Switzerland",
+        "country":"Europe",
+        "days":"5",
+        "peoples":"255",
+        "price":"130$",
+        "discount":"190$",
+        "quote":"Experience the breathtaking beauty of Switzerland on your next vacation. From the majestic Alps to picturesque lakeside towns, immerse yourself in stunning scenery, charming cities, and world-class hospitality."
+    }
+]

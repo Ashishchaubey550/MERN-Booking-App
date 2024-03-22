@@ -1,29 +1,10 @@
 import React from "react";
 import Card from "./VacationRentalCard.jsx";
-import "./vacationRentals.scss";
+import "./VacationRentals.scss";
 import cardsData from "../Dummy Data/vacationRentals.json";
 
-const vacationRentals = () => {
-    // const renderCards = () => {
-    //     return cardsData.map((card, index) => (
-    //         <div key={index} className="vacRentals-card-container">
-    //             <Card
-    //                 imageUrl={card.imageUrl}
-    //                 title={card.title}
-    //                 name={card.name}
-    //                 place={card.place}
-    //                 peoples={card.peoples}
-    //                 beds={card.beds}
-    //                 baths={card.baths}
-    //                 sleeps={card.sleeps}
-    //                 home={card.home}
-    //                 reviews={card.reviews}
-    //                 views={card.views}
-    //                 price={card.price}
-    //             />
-    //         </div>
-    //     ));
-    // };
+const VacationRentals = ({title}) => {
+
     const splitIntoRows = (cards, rowSize) => {
         const rows = [];
         for (let i = 0; i < cards.length; i += rowSize) {
@@ -34,7 +15,7 @@ const vacationRentals = () => {
 
     return (
         <div className="vacation-rentals-container">
-            <h1>LifeVista Vacation Rentals</h1>
+            <h1>{title}</h1>
             {splitIntoRows(cardsData, 3).map((row, index) => (
                 <div key={index} className="vac-card-row">
                     {row.map((card, cardIndex) => (
@@ -51,6 +32,7 @@ const vacationRentals = () => {
                                 home={card.home}
                                 reviews={card.reviews}
                                 views={card.views}
+                                star={card.star}
                             />
                         </div>
                     ))}{" "}
@@ -60,4 +42,4 @@ const vacationRentals = () => {
     );
 };
 
-export default vacationRentals;
+export default VacationRentals;

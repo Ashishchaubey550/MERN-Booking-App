@@ -47,10 +47,10 @@ const Footer = () => {
                 <div className="follow-us">
                         <div className="follow"><span>Follow Us</span></div>
                         <div className="follow-icons">
-                            <FacebookIcon style={{ color: 'white', margin: '5px' }} />
-                            <LinkedInIcon style={{ color: 'white', margin: '5px' }} />
-                            <InstagramIcon style={{ color: 'white', margin: '5px' }} />
-                            <XIcon style={{ color: 'white', margin: '5px' }} />
+                            <FacebookIcon style={{ color: 'white', margin: '4px' }} />
+                            <LinkedInIcon style={{ color: 'white', margin: '4px' }} />
+                            <InstagramIcon style={{ color: 'white', margin: '4px' }} />
+                            <XIcon style={{ color: 'white', margin: '4px' }} />
                         </div>
                     </div>
                 </div>

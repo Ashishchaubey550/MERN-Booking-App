@@ -1,0 +1,123 @@
+.trend-vac-card-container{
+    width: 326px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    // background-color: aqua;
+    padding: 8px;
+
+    img{
+        border-radius: 12px;
+        width: 436px;
+    }
+
+    .days-peoples{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .days{
+            display: flex;
+            margin: 10px 0px;
+            align-items: center;
+
+            p{
+                font-size: 13.62px;
+                line-height: 20.43px;
+                font-weight: 400;
+                color: #7D7D7D;
+            }
+        }
+        .num-peoples{
+            display: flex;
+            margin: 10px 0px;
+            align-items: center;
+
+            p{
+                font-size: 13.62px;
+                line-height: 20.43px;
+                font-weight: 400;
+                color: #7D7D7D;
+            }
+        }
+    }
+
+    .place{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 2px 0px;
+        width: 100%;
+
+        // span{
+            
+        // }
+
+        .location{
+            text-align: justify;
+            h2{
+                margin: 2px 2px;
+                font-size: 23.53px;
+                line-height: 35.29px;
+                font-weight: 700;
+            }
+            .country{
+                margin: 2px 0;
+                display: flex;
+                align-items: center;
+
+                span{
+                    font-size: 13.62px;
+                    line-height: 20.43px;
+                    font-weight: 400;
+                    color: #7D7D7D
+                }
+            }
+        }
+    }
+
+    .price{
+        display: flex;
+        margin: 10px 3px;
+        align-items: baseline;
+    
+        .correct{
+            color: #4AA5D2;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 35px;
+            margin-right: 20px;
+        }
+        .wrong{
+            color: #7D7D7D;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    
+    .quote{
+        text-align: justify;
+        margin: 10px 4px;
+        span{
+            font-size: 12px;
+            line-height: 10px;
+            font-weight: 400;
+            color: #000000;
+            font-weight: 400;
+            
+        }
+    }
+    button{
+        color: #FFFFFF;
+        background-color: #4aa5d2;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        // margin-top: 14px;
+        margin-left: 3px;
+        text-align: justify;
+    }
+}

@@ -4,34 +4,39 @@
         "name":"Cozy Cabin Retreats",
         "place":"Madrid, Spain",
         "price":"49$",
-        "quote":"Your cozy hideaway in nature's lap. Unwind and rejuvenate amidst rustic charm."
+        "quote":"Your cozy hideaway in nature's lap. Unwind and rejuvenate amidst rustic charm.",
+        "star": 4
     },
     {
         "imgUrl":"img/must-visit2.jpeg",
         "name":"Eiffel Tower",
         "place":"Champ De Mors, France",
         "price":"39$",
-        "quote":"Explore its intricate ironwork and ascend to the top for unparalleled views of the City of Light."
+        "quote":"Explore its intricate ironwork and ascend to the top for unparalleled views of the City of Light.",
+        "star": 3
     },
     {
         "imgUrl":"img/must-visit3.jpeg",
         "name":"Diamond",
         "place":"Bali, Indonesia",
         "price":"64$",
-        "quote":"Witness nature's magic in a snapshot, as glacial fragments adorn volcanic shores, creating a scene of  beauty."
+        "quote":"Witness nature's magic in a snapshot, as glacial fragments adorn volcanic shores, creating a scene of  beauty.",
+        "star": 5
     },
     {
         "imgUrl":"img/must-visit2.jpeg",
         "name":"Eiffel Tower",
         "place":"Champ De Mors, France",
         "price":"39$",
-        "quote":"Explore its intricate ironwork and ascend to the top for unparalleled views of the City of Light."
+        "quote":"Explore its intricate ironwork and ascend to the top for unparalleled views of the City of Light.",
+        "star": 4
     },
     {
         "imgUrl":"img/must-visit1.jpeg",
         "name":"Cozy Cabin Retreats",
         "place":"Madrid, Spain",
         "price":"49$",
-        "quote":"Your cozy hideaway in nature's lap. Unwind and rejuvenate amidst rustic charm."
+        "quote":"Your cozy hideaway in nature's lap. Unwind and rejuvenate amidst rustic charm.",
+        "star": 5
     }
 ]
