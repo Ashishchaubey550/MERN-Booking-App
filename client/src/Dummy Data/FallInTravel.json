@@ -1,0 +1,26 @@
+[
+  {
+    "imgUrl": "img/Melbourn.jpg",
+    "PlaceName": "Melbourne",
+    "Desc": "An Amazing Journey",
+    "BtnTit": "Book Now"
+  },
+  {
+    "imgUrl": "img/Paris.jpg",
+    "PlaceName": "Paris",
+    "Desc": "A Paris Adventure",
+    "BtnTit": "Book Now"
+  },
+  {
+    "imgUrl": "img/London.jpg",
+    "PlaceName": "London",
+    "Desc": "London eye adventure",
+    "BtnTit": "Book Now"
+  },
+  {
+    "imgUrl": "img/Colombia.jpg",
+    "PlaceName": "Columbia",
+    "Desc": "Amazing streets",
+    "BtnTit": "Book Now"
+  }
+]

@@ -7,7 +7,7 @@ import flyemirates from "../assets/fly-emirates.png"
 import TurkishAir from "../assets/TurkishAir.png"
 export default function TravelPartner(){
     return(
-        <div className=" flex bg-explorebg flex-row  w-full h-[149px]  m-auto justify-evenly items-center">
+        <div className=" flex bg-explorebg   w-full h-[149px]  m-au to justify-evenly items-center">
             <img src={flyemirates} alt="" className=" m-auto w-[107px] h-[100px] text-explorebg opacity-90" />
             <img src={trivago} alt="" className=" m-auto w-[123px] h-[37px] text-explorebg opacity-90"/>
             <img src={Airbnb} alt="" className=" m-auto w-[120px] h-[37px] text-explorebg opacity-90" />
