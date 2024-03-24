@@ -34,6 +34,9 @@ Holiday{
 .slick-slide>div{
   padding: 10px;
 }
+/* .slick-slide{
+  width: 140px;
+} */
 .slick-next {
   width: 45px; 
   height: 45px; 

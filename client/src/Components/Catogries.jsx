@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { FaAngleLeft, FaAngleRight} from "react-icons/fa6";
+import { PiCaretRight, PiCaretLeft } from "react-icons/pi";
 
 export default function Catogries() {
 
@@ -34,8 +34,8 @@ export default function Catogries() {
                             <div className="w-[370px] h-[79px] mt-[35px] ml-[15px] text-left text-gray-500">Here are lots of interesting destinations to visit, but don’t be confused—they’re already grouped by category.</div>
                         </div>
                         <div className="flex">
-                            <FaAngleLeft onClick={handlePrev} style={{ margin: '5px', fontSize: '40px', color: '#4AA5D2', border: '1px solid #4AA5D2', borderRadius: '20px', padding: '4px', cursor: 'pointer' }} />
-                            <FaAngleRight onClick={handleNext} style={{ margin: '5px', fontSize: '40px', color: 'white', padding: '4px', cursor: 'pointer', backgroundColor: '#4AA5D2', borderRadius: '20px' }} />
+                            <PiCaretLeft onClick={handlePrev} style={{ margin: '5px', fontSize: '40px', color: '#4AA5D2', border: '1px solid #4AA5D2', borderRadius: '20px', padding: '4px', cursor: 'pointer' }} />
+                            <PiCaretRight onClick={handleNext} style={{ margin: '5px', fontSize: '40px', color: 'white', padding: '4px', cursor: 'pointer', backgroundColor: '#4AA5D2', borderRadius: '20px' }} />
                         </div>
                     </div>
 

@@ -13,7 +13,7 @@ import { CiCalendar } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import { Rate } from 'antd';
 
-const divationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths, sleeps, views, reviews, home, star}) => {
+const VacationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths, sleeps, views, reviews, home, star}) => {
   return (
     <div className="vac-rent-card">
       <img className="vac-image" src={imageUrl} alt="Destination" />
@@ -101,4 +101,4 @@ const divationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths,
   );
 };
 
-export default divationRentalCard;
+export default VacationRentalCard;

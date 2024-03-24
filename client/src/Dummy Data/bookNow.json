@@ -1,0 +1,122 @@
+[
+    {
+        "img1":"img/book1.png",
+        "img2":"img/book2.png",
+        "img3":"img/book3.png",
+        "img4":"img/book4.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book2.png",
+        "img2":"img/book1.png",
+        "img3":"img/book4.png",
+        "img4":"img/book3.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book3.png",
+        "img2":"img/book2.png",
+        "img3":"img/book1.png",
+        "img4":"img/book4.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book4.png",
+        "img2":"img/book2.png",
+        "img3":"img/book1.png",
+        "img4":"img/book3.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book3.png",
+        "img2":"img/book2.png",
+        "img3":"img/book1.png",
+        "img4":"img/book4.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book2.png",
+        "img2":"img/book1.png",
+        "img3":"img/book3.png",
+        "img4":"img/book4.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book4.png",
+        "img2":"img/book3.png",
+        "img3":"img/book2.png",
+        "img4":"img/book1.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book3.png",
+        "img2":"img/book2.png",
+        "img3":"img/book4.png",
+        "img4":"img/book1.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book2.png",
+        "img2":"img/book4.png",
+        "img3":"img/book3.png",
+        "img4":"img/book1.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book1.png",
+        "img2":"img/book2.png",
+        "img3":"img/book3.png",
+        "img4":"img/book4.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book1.png",
+        "img2":"img/book3.png",
+        "img3":"img/book4.png",
+        "img4":"img/book2.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    },
+    {
+        "img1":"img/book3.png",
+        "img2":"img/book4.png",
+        "img3":"img/book1.png",
+        "img4":"img/book2.png",
+        "name":"The Oasis",
+        "place":"Mindanou, Philippines",
+        "price":"200$",
+        "star":"4.2"
+    }
+]

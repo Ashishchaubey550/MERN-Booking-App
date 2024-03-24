@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Card from "./popularDestnCard.jsx";
 import data from "../Dummy Data/popularDestn.json";
 import "./popularDestn.scss";
-import { FaAngleLeft, FaAngleRight} from "react-icons/fa6";
+import { PiCaretRight, PiCaretLeft } from "react-icons/pi";
 
 const popularDestn = () => {
     const sliderRef = useRef(null);
@@ -31,8 +31,8 @@ const popularDestn = () => {
                 <div className='popular-destn-heading'>
                     <h2 className="">Find Popular<br /> Destinations</h2>
                     <div className="arrow-icons">
-                        <FaAngleLeft onClick={handlePrev} style={{ margin: '5px', fontSize: '40px', color: 'white', border: '1px solid white', borderRadius: '20px', padding: '4px', cursor: 'pointer' }} />
-                        <FaAngleRight onClick={handleNext} style={{ margin: '5px', fontSize: '40px', color: 'white', padding: '4px', cursor: 'pointer' }} />
+                        <PiCaretLeft onClick={handlePrev} style={{ margin: '5px', fontSize: '40px', color: 'white', border: '1px solid white', borderRadius: '20px', padding: '4px', cursor: 'pointer' }} />
+                        <PiCaretRight onClick={handleNext} style={{ margin: '5px', fontSize: '40px', color: 'white', padding: '4px', cursor: 'pointer' }} />
                     </div>
                 </div>
                 <div className='pop-card-container'>

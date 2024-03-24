@@ -1,32 +1,32 @@
 [
     {
-        "imgUrl":"img/featureNews1",
-        "date":"",
-        "place":"",
-        "quote":""
+        "imgUrl":"img/featureNews1.jpeg",
+        "date":"March 07, 2024",
+        "place":"Ocean's Edge Seafood Restaurant",
+        "quote":"Ocean's Edge Seafood Restaurant: Where ocean views meet culinary perfection. Enjoy fresh seafood delights scenery."
     },
     {
-        "imgUrl":"img/featureNews2",
-        "date":"",
-        "place":"",
-        "quote":""
+        "imgUrl":"img/featureNews2.jpeg",
+        "date":"March 21, 2024",
+        "place":"Banff National Park, Canada",
+        "quote":"Banff National Park, nestled in the Canadian Rockies, captivates with its majestic peaks, shimmering lakes, and pristine wilderness."
     },
     {
-        "imgUrl":"img/featureNews3",
-        "date":"",
-        "place":"",
-        "quote":""
+        "imgUrl":"img/featureNews3.jpeg",
+        "date":"April 19, 2024",
+        "place":"Neuschwanstein Castle, Germany",
+        "quote":"Neuschwanstein Castle, perched atop a hill in Bavaria, Germany, is a fairytale fortress straight out of a storybook."
     },
     {
-        "imgUrl":"img/featureNews2",
-        "date":"",
-        "place":"",
-        "quote":""
+        "imgUrl":"img/featureNews2.jpeg",
+        "date":"May 26, 2024",
+        "place":"Banff National Park, Canada",
+        "quote":"Banff National Park, nestled in the Canadian Rockies, captivates with its majestic peaks, shimmering lakes, and pristine wilderness."
     },
     {
-        "imgUrl":"",
-        "date":"",
-        "place":"",
-        "quote":""
+        "imgUrl":"img/featureNews3.jpeg",
+        "date":"May 1, 2024",
+        "place":"Neuschwanstein Castle, Germany",
+        "quote":"Neuschwanstein Castle, perched atop a hill in Bavaria, Germany, is a fairytale fortress straight out of a storybook."
     }
 ]
