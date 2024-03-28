@@ -36,3 +36,4 @@ document.addEventListener("DOMContentLoaded", function() {
     lazyLoad(); 
     window.addEventListener('scroll', lazyLoad);
 });
+
