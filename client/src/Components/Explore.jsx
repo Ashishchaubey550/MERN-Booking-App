@@ -1,5 +1,6 @@
-import React from 'react'
-import './Explore.scss'
+import React from 'react';
+import '../styles/Explore.scss';
+import { Button } from '@mui/material';
 
 const Explore = () => {
   return (
@@ -8,14 +9,14 @@ const Explore = () => {
         <div className='content'>
           <span>PROMOTION</span>
           <h2>Explore Nature</h2>
-          <button>View Packages</button>
+          <Button variant="contained">View Packages</Button>
         </div>
       </div>
       <div className='cities'>
         <div className='content'>
           <span>PROMOTION</span>
           <h2>Explore Cities</h2>
-          <button>View Packages</button>
+          <Button variant="contained">View Packages</Button>
         </div>
       </div>
     </div>

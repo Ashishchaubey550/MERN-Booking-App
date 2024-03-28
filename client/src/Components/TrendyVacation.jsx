@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -6,7 +6,7 @@ import Card from "./TrendyVacationCard";
 // import Card from "./MustVisitCard.jsx";
 // import data from "../Dummy Data/mustVisit.json";
 import data from "../Dummy Data/trendyVacation.json";
-import "./TrendyVacation.scss";
+import "../styles/TrendyVacation.scss";
 // import "./MustVisitDestn.scss";
 
 const TrendyVacation = () => {

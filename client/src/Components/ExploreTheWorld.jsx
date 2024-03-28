@@ -1,5 +1,5 @@
 import React from 'react';
-import "./ExploreTheWorld.scss";
+import "../styles/ExploreTheWorld.scss";
 import { FaArrowRight } from 'react-icons/fa6';
 
 const ExploreTheWorld = () => {

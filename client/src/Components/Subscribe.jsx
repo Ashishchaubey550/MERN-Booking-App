@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Subscribe.scss";
+import "../styles/Subscribe.scss";
 import { useState } from "react";
-
+import { Button } from '@mui/material';
 
 const Subscribe = () => {
 
@@ -22,7 +22,7 @@ const Subscribe = () => {
             
           <form className="input-group" onSubmit={handleSubscribe}>
             <input onChange={(e) => setEmail(e.target.value)} name='email' type="email" placeholder="Please enter your email address to get latest updates and offers" />
-            <button type='submit'><span>Subscribe</span></button>
+            <button type='submit'>Subscribe</button>
           </form>
         </div>
       );

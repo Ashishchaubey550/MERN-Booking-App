@@ -1,0 +1,26 @@
+[
+    {
+        "imgUrl":"img/savigya_singh.jpeg",
+        "name":"Savigya Singh",
+        "role":"CEO & Founder",
+        "desc":"Savigya Singh Is A Finance MBA Graduate With A Bachelor's Degree In Computer Technology. Having Worked For The Last Seven Years In Technical Development And Analytics. He Has Had Positions At Google, Airtel, Habitus, And EXL As A Manager For Client Visas."
+    },
+    {
+        "imgUrl":"img/madhumita_pandey.png",
+        "name":"MADHUMITA PANDEY",
+        "role":"Director & Co-Founder",
+        "desc":"An Accomplished Analytics Specialist With A Finance MBA And 10 Years Of Expertise Exclusively In The Financial Space. She Formerly Held Positions As A Manager At EY For Fidelity And Has Worked For Airtel, Genpact, HSBC, And The Startup Habitus."
+    },
+    {
+        "imgUrl":"img/Anastasios Grigoriadis.png",
+        "name":"Anastasios Grigoriadis",
+        "role":"Chief Financial Officer",
+        "desc":"Competent Accountant With Experience Working As A Multiracial And Multicultural CFO. His Current Roles As A Fractional Financial Controller For A US Institution And A Financial Adviser For Pre-Revenue Startups In The New Tech Sector Further Highlight Knowledge."
+    },
+    {
+        "imgUrl":"img/mehreen_jahangir.jpeg",
+        "name":"Mehreen jahangir",
+        "role":"Lead Designer",
+        "desc":"With a proven track record of 3 years in the design industry, Mehreen Jahangir stands as a seasoned leader in the field. Specializing in graphic design, UX/UI design, they bring a blend of creativity, strategic vision, and technical proficiency to every project."
+    }
+]

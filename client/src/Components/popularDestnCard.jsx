@@ -1,5 +1,5 @@
 import React from 'react';
-import "./popularDestnCard.scss";
+import "../styles/popularDestnCard.scss";
 
 const popularDestnCard = ({ imageUrl, name, country, price }) => {
     return (
