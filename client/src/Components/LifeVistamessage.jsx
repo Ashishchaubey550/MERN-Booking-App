@@ -3,7 +3,7 @@ import React from 'react'
 const LifeVistamessage = () => {
   return (
     <div className='flex w-full h-[450px]'>
-      <img src="img/savigya_singh.jpeg" alt="" className='w-1/2 '/>
+      <img src="img/sir-removebg-preview 1.jpg" alt="" className='w-1/2 bg-black'/>
       <div className='flex flex-col justify-evenly py-10 px-8 bg-[#4AA5D2] w-1/2'>
         <h2 className='text-[30px] text-white font-[700] leading-[35px] my-1'>The LifeVista Vacation Message & Visions</h2>
         <span className='text-[14px] text-white font-[600] leading-[20px] my-2'>"We Are With You"</span>
