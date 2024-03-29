@@ -33,13 +33,13 @@ app.use("/", authRoute);
 //     });
 //     };
 
-<<<<<<< Updated upstream
-    lazyLoad(); 
-    window.addEventListener('scroll', lazyLoad);
-});
-
-=======
+// <<<<<<< Updated upstream
 //     lazyLoad(); 
 //     window.addEventListener('scroll', lazyLoad);
 // });
->>>>>>> Stashed changes
+
+// =======
+//     lazyLoad(); 
+//     window.addEventListener('scroll', lazyLoad);
+// });
+// >>>>>>> Stashed changes
