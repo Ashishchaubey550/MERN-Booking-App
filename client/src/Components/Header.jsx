@@ -24,13 +24,13 @@ export default function Header() {
           <img src={lifevista} className="h-[62px] w-[249px]" alt="LifeVista" />
         </Link>
         <div className="flex items-center space-x-12">
-          <Link to="/" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300`}>Home</Link>
-          <Link to="/AboutUs" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300`}>About Us</Link>
-          <Link to="/Browse" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300`}>Browse</Link>
-          <Link to="/Deals&Specials" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300`}>Deals & Specials</Link>
-          <Link to="/Newlistings" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300`}>New Listings</Link>
-          <Link to="/FAQ" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300`}>FAQ</Link>
-          <Link to="/OwnerRegisterPage" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300`}>Owner Login</Link>
+          <Link to="/" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300 hover:cursor-pointer hover:underline`}>Home</Link>
+          <Link to="/AboutUs" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300 hover:cursor-pointer hover:underline`}>About Us</Link>
+          <Link to="/Browse" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300 hover:cursor-pointer hover:underline`}>Browse</Link>
+          <Link to="/Deals&Specials" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300 hover:cursor-pointer hover:underline`}>Deals & Specials</Link>
+          <Link to="/Newlistings" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300 hover:cursor-pointer hover:underline`}>New Listings</Link>
+          <Link to="/FAQ" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300 hover:cursor-pointer hover:underline`}>FAQ</Link>
+          <Link to="/OwnerRegisterPage" className={`text-${scrolled ? 'white' : 'white'} hover:text-gray-300 hover:cursor-pointer hover:underline`}>Owner Login</Link>
         </div>
       </div>
     </div>
