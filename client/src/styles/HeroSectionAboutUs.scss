@@ -1,0 +1,30 @@
+.about-hero-container{
+    background-image: url('img/about-hero-back_cropped.jpeg');
+    height: 560px;
+    // background-size: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .heading-cont{
+        z-index: 1;
+        position: relative;
+        padding-top: 60px;
+    }
+}
+.about-hero-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    // background-color: #000000;
+    background-color: #02010180;
+}

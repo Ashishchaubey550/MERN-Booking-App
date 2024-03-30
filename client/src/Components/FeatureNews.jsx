@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import "./FeatureNews.scss";
+import "../styles/FeatureNews.scss";
 import Card from "./FeatureNewsCard.jsx";
 import data from "../Dummy Data/featureNews.json";
 import { PiCaretRight, PiCaretLeft } from "react-icons/pi";

@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from "../Components/BookNowCard";
-import "./BookNow.scss";
+import "../styles/BookNow.scss";
 import data from "../Dummy Data/bookNow.json";
 import { FaArrowRightLong } from "react-icons/fa6";
 

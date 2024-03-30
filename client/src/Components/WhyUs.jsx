@@ -1,5 +1,5 @@
 import React from 'react'
-import "./WhyUs.scss"
+import "../styles/WhyUs.scss"
 
 const WhyUs = () => {
   return (

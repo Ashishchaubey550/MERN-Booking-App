@@ -1,5 +1,5 @@
 import React from 'react';
-import "./BestServices.scss";
+import "../styles/BestServices.scss";
 
 const BestServices = () => {
   return (

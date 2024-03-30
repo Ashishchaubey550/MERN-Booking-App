@@ -1,5 +1,5 @@
 import React from 'react';
-import "./HeroSectionBrowse.scss";
+import "../styles/HeroSectionBrowse.scss";
 import { IoLocationOutline } from "react-icons/io5";
 import { IoIosPeople } from "react-icons/io";
 import { IoIosSearch } from "react-icons/io";

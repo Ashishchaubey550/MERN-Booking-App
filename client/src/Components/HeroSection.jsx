@@ -1,7 +1,7 @@
 import React from 'react'
 import TravelInfo from './Travelnfo.jsx'
 import TicketNo from './TicketNo.jsx'
-import './HeroSection.scss'
+import '../styles/HeroSection.scss'
 
 const HeroSection = () => {
     return (

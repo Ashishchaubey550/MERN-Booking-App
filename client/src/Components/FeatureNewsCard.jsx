@@ -1,5 +1,5 @@
 import React from 'react';
-import "./FeatureNewsCard.scss";
+import "../styles/FeatureNewsCard.scss";
 import { PiCaretCircleRightThin } from "react-icons/pi";
 import { LuCalendarDays } from "react-icons/lu";
 

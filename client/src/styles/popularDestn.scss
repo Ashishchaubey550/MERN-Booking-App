@@ -1,0 +1,40 @@
+.popular-destn-container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #4AA5D2;
+     width: 100%;
+     padding-bottom: 20px;
+
+     .destn-cont{
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: column;
+          background-color: #4AA5D2;
+          width: 95%;
+          padding: 30px 30px;
+          height: 500px;
+      
+         .popular-destn-heading{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+           margin: 0px 20px;
+              h2{
+              font-size: 42.24px;
+              line-height: 49.78px;
+              font-weight: 600;
+              color: #FFFFFF;
+              }
+
+              .arrow-icons{
+               display: flex;
+              }
+           
+          }
+         }
+}
+
+
+
+   

@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Card from "./MustVisitCard.jsx";
 import data from "../Dummy Data/mustVisit.json";
-import "./MustVisitDestn.scss";
+import "../styles/MustVisitDestn.scss";
 
 const MustVisitDestn = () => {
     const settings = {

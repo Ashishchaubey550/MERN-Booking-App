@@ -1,5 +1,5 @@
 import React from "react";
-import "./VacationRentalCard.scss";
+import "../styles/VacationRentalCard.scss";
 import { FaBed, FaRegUser } from "react-icons/fa6";
 import { CiSearch } from "react-icons/ci";
 import { LiaBathSolid, LiaBedSolid } from "react-icons/lia";
@@ -12,6 +12,7 @@ import { LiaStreetViewSolid } from "react-icons/lia";
 import { CiCalendar } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import { Rate } from 'antd';
+import { Button } from '@mui/material';
 
 const VacationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths, sleeps, views, reviews, home, star}) => {
   return (
@@ -93,10 +94,10 @@ const VacationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths,
             </div>
         </div>   
       </div>
-      <button>
-        <CiSearch style={{ marginRight: "5px" }} />
+      
+      <Button variant="contained" startIcon={<CiSearch/>}>
         View Listing
-      </button>
+      </Button>
     </div>
   );
 };

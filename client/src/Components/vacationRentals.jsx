@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./VacationRentalCard.jsx";
-import "./VacationRentals.scss";
+import "../styles/VacationRentals.scss";
 import cardsData from "../Dummy Data/vacationRentals.json";
 
 const VacationRentals = ({title}) => {

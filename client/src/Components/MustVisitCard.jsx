@@ -1,5 +1,5 @@
 import React from 'react';
-import "./MustVisitCard.scss";
+import "../styles/MustVisitCard.scss";
 import { IoLocationOutline } from "react-icons/io5";
 import { Rate } from 'antd';
 

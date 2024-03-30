@@ -1,15 +1,16 @@
 import React, {useState} from 'react';
-import "./HeroSectionDeals.scss";
+import "../styles/HeroSectionDeals.scss";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoCalendarOutline } from "react-icons/io5";
 import { IoIosPeople } from "react-icons/io";
 import DatePicker from 'react-datepicker';
+import { Button } from '@mui/material';
 
 // import { DatePicker } from 'antd';
 
 const HeroSectionDeals = () => {
     const [selectedDate, setSelectedDate] = useState(null);
-  const [showDatePicker, setShowDatePicker] = useState(false);
+    const [showDatePicker, setShowDatePicker] = useState(false);
 
   return (
     <div className='deals-hero-container'>
@@ -43,7 +44,7 @@ const HeroSectionDeals = () => {
                 </div>
       
             </div>
-            <button>Search</button>
+            <Button variant='contained'>Search</Button>
             
         </div>
     </div>
