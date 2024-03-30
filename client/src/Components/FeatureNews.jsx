@@ -6,6 +6,7 @@ import "../styles/FeatureNews.scss";
 import Card from "./FeatureNewsCard.jsx";
 import data from "../Dummy Data/featureNews.json";
 import { PiCaretRight, PiCaretLeft } from "react-icons/pi";
+import { IconButton } from '@mui/material';
 
 
 const FeatureNews = () => {
@@ -30,8 +31,8 @@ const FeatureNews = () => {
                 <div className='heading'>
                     <h2>Feature News</h2>
                     <div className="arrow-icons">
-                        <PiCaretLeft onClick={handlePrev} style={{ margin: '5px', fontSize: '35px', border: '0.1px solid #D8D8D8', borderRadius: '4px', padding: '4px', cursor: 'pointer' }} />
-                        <PiCaretRight onClick={handleNext} style={{ margin: '5px', fontSize: '35px',border: '1px solid #D8D8D8',borderRadius: '4px', padding: '4px', cursor: 'pointer' }} />
+                        <IconButton><PiCaretLeft onClick={handlePrev} style={{ margin: '5px', fontSize: '35px', border: '0.1px solid #D8D8D8', borderRadius: '4px', padding: '4px', cursor: 'pointer' }} /></IconButton>
+                        <IconButton><PiCaretRight onClick={handleNext} style={{ margin: '5px', fontSize: '35px',border: '1px solid #D8D8D8',borderRadius: '4px', padding: '4px', cursor: 'pointer' }} /></IconButton>
                     </div>
                 </div>
                 <div className='feature-card-container'>

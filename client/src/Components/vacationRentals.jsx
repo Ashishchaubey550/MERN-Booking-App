@@ -3,7 +3,7 @@ import Card from "./VacationRentalCard.jsx";
 import "../styles/VacationRentals.scss";
 import cardsData from "../Dummy Data/vacationRentals.json";
 
-const VacationRentals = ({title}) => {
+const VacationRentals = ({title, desc}) => {
 
     const splitIntoRows = (cards, rowSize) => {
         const rows = [];
@@ -15,7 +15,8 @@ const VacationRentals = ({title}) => {
 
     return (
         <div className="vacation-rentals-container">
-            <h1>{title}</h1>
+            <h1 className="mx-48">{title}</h1>
+            <p className="text-[#7D7D7D] text-[20px] mx-20">{desc}</p>
             {splitIntoRows(cardsData, 3).map((row, index) => (
                 <div key={index} className="vac-card-row">
                     {row.map((card, cardIndex) => (

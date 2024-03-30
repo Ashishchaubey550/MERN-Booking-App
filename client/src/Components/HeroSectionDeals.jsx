@@ -45,7 +45,6 @@ const HeroSectionDeals = () => {
       
             </div>
             <Button variant='contained'>Search</Button>
-            
         </div>
     </div>
   )

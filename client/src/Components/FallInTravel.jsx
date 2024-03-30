@@ -3,7 +3,7 @@ import data from "../Dummy Data/FallInTravel.json"
 
 export default function FallInTravel(){
     return(
-        <div className="flex flex-col  w-full h-[552px] bg-explorebg m-auto items-center  justify-between">
+        <div className="flex flex-col pt-10  w-full h-[632px] bg-explorebg m-auto items-center  justify-between">
             <div className=" flex w-[1223px] h-[92px] m-auto items-center justify-between">
                 <div className="  w-[1123px] h-[92px]">
                     <p className=" font-semibold text-[32px] leading-9 p-1 text-black">Fall Into Travel</p>

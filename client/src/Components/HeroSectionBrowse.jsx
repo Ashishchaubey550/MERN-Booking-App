@@ -4,6 +4,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { IoIosPeople } from "react-icons/io";
 import { IoIosSearch } from "react-icons/io";
 import { IoCalendarOutline } from "react-icons/io5";
+import { IconButton } from '@mui/material';
 
 
 const HeroSectionBrowse = () => {
@@ -44,6 +45,9 @@ const HeroSectionBrowse = () => {
           <button style={{backgroundColor:'#4AA5D2', margin:'10px 8px 10px 20px',padding:'10px', borderRadius:'60px'}}>
             <IoIosSearch style={{color:'white', fontSize:'25px'}}/>
           </button>
+          {/* <IconButton sx={{backgroundColor:'#4AA5D2', margin:'10px 8px 10px 20px',padding:'10px', borderRadius:'70px'}}>
+            <IoIosSearch style={{color:'white', fontSize:'25px'}}/>
+          </IconButton> */}
         </div>
       </div>
     </div>

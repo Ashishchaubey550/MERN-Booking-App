@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Button } from '@mui/material';
 import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 
 const HeroSectionFAQ = () => {
@@ -10,14 +11,12 @@ const HeroSectionFAQ = () => {
       </div>
       <form action="submit" className="flex bg-white rounded-3xl justify-between mx-40 py-2 px-2">
         <input type="email" placeholder="Enter your email" className="p-2 outline-none placeholder-[#778088]"/>
-        <button className="rounded-3xl bg-[#4AA5D2] py-2 px-6 text-white">Subscribe</button>
+        <Button variant='contained' sx={{backgroundColor:'#4aa5d2', padding:'8px 24px', borderRadius:'1.5rem'}}>Subscribe</Button>
       </form>
-      <div className="my-1 items-center">
-        <CheckCircleRoundedIcon className="color-white mr-2"/>
+      <div className="my-1 items-baseline">
+        <CheckCircleRoundedIcon className="text-white mr-2 mb-1"/>
         <span className="text-[18px] font-normal text-white leading-[30px]">It's 100% free and we will never send more than one email per month</span>
       </div>
-      
-
     </div>
   )
 }

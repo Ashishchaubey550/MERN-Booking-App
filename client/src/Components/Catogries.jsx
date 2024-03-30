@@ -36,10 +36,10 @@ export default function Catogries() {
                         </div>
                         <div className="flex">
                             <IconButton>
-                            <PiCaretLeft onClick={handlePrev} style={{ margin: '5px', fontSize: '40px', color: '#4AA5D2', border: '1px solid #4AA5D2', borderRadius: '20px', padding: '4px', cursor: 'pointer' }} />
+                            <PiCaretLeft onClick={handlePrev} style={{ margin: '0px', fontSize: '40px', color: '#4AA5D2', border: '1px solid #4AA5D2', borderRadius: '20px', padding: '4px', cursor: 'pointer' }} />
                             </IconButton>
                             <IconButton>
-                            <PiCaretRight onClick={handleNext} style={{ margin: '5px', fontSize: '40px', color: 'white', padding: '4px', cursor: 'pointer', backgroundColor: '#4AA5D2', borderRadius: '20px' }} />
+                            <PiCaretRight onClick={handleNext} style={{ margin: '0px', fontSize: '40px', color: 'white', padding: '4px', cursor: 'pointer', backgroundColor: '#4AA5D2', borderRadius: '20px' }} />
                             </IconButton>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default function Catogries() {
                                 <div key={index}>
                                     <div className="w-full rounded-full  flex justify-evenly items-center h-64">
                                         <button>
-                                            <img src={d.img} alt="img" className=" w-full lazy  h-60 justify-even items-center rounded-3xl" />
+                                            <img src={d.img} alt="img" className=" w-full lazy  h-60 justify-even items-center rounded-full" />
                                         </button>
                                     </div>
                                     <p className='font-medium text-[24px] text-[#2D3134]'>{d.name}</p>

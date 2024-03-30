@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/popularDestnCard.scss";
+import { Button } from '@mui/material';
 
 const popularDestnCard = ({ imageUrl, name, country, price }) => {
     return (
@@ -13,7 +14,7 @@ const popularDestnCard = ({ imageUrl, name, country, price }) => {
                 <div className="price">
                     <p><span>{price}</span>/Person</p>
                 </div>
-                <button className="book-now">Book Now</button>
+                <Button variant='contained' className="book-now">Book Now</Button>
             </div>
         </div>
     );
