@@ -1,6 +1,6 @@
 import Subscribe from "../Components/Subscribe";
 import Footer from "../Components/Footer";
-import VacationRentals from "../Components/VacationRentals";
+import VacationRentals from "../Components/VacationRentals.jsx";
 import Header from "../Components/Header";
 import ExploreTheWorld from "../Components/ExploreTheWorld";
 import FeatureNews from "../Components/FeatureNews";
