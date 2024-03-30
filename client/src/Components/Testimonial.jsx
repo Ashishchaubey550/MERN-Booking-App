@@ -18,6 +18,7 @@ return (
         <div className="w-full md:w-[301px] h-[566px] md:mr-4 mb-[11%]">
         <TestimoCard
             imgSrc={GreyMen}
+            Name="John"
             imgH="355px"
             DivH="430px"
             DivW="286px"
@@ -27,6 +28,7 @@ return (
         <div className="w-full md:w-[418px] h-[776px] md:mr-4 mb-4 md:mb-0">
         <TestimoCard
             imgSrc={GreySuit}
+            Name="Lisa"
             imgH="546px"
             imgW="418px"
             DivH="668px"
@@ -35,6 +37,7 @@ return (
         </div>
         <div className="w-full md:w-[301px] h-[566px] mb-28">
         <TestimoCard
+            Name="John"
             imgSrc={bluesuit}
             imgH="355px"
             imgW="241px"

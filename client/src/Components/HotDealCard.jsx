@@ -17,7 +17,7 @@ export default function HotDealCard({ImgURL , offer , Price , Validity , Desc , 
                     <p className=" p-1">{Sleep}</p>
                 </div>
             </div>
-            <button className=" mt-2 ml-3 w-[100px] h-[31px] rounded-[30px] bg-BgOwnBlue"><p className="">Hello</p></button>
+            <button className=" mt-2 ml-3 w-[100px] h-[31px] rounded-[30px] bg-BgOwnBlue"><p className="">Book Now</p></button>
             <button className=" mt-2 ml-3 w-[100px] h-[31px] rounded-[30px] bg-white border border-BgOwnBlue"><p className=" font-bold text-[11px] leading-[13px] text-BgOwnBlue">Deals</p></button>
         </div>
     );

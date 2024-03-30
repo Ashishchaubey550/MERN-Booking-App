@@ -1,4 +1,4 @@
-export default function TestimoCard({ imgW, imgH, imgSrc, DivH, DivW }) {
+export default function TestimoCard({ imgW, imgH, imgSrc, DivH, DivW , Name }) {
     return (
     <>
         <div className={`flex flex-col w-[${DivW}] h-[${DivH}] justify-center items-center`}>
@@ -8,7 +8,7 @@ export default function TestimoCard({ imgW, imgH, imgSrc, DivH, DivW }) {
         <div key={index} className="w-full md:w-[301px] h-[177px] mx-auto mb-8 md:mb-0">
             <div className="flex justify-center items-center flex-col">
             <div className="flex flex-col justify-center items-center w-full md:w-[256px] h-[64px]">
-                <p className="w-full h-[32px] text-center font-semibold text-3xl leading-8">{d.name}</p>
+                <p className="w-full h-[32px] text-center font-semibold text-3xl leading-8">{Name}</p>
                 <p className="w-full h-[18px] text-center font-semibold text-lg leading-6 text-BgOwnBlue">{d.post}</p>
             </div>
             <h1 className="w-full h-[50px] text-center text-gray-500 text-opacity-80 font-normal text-lg leading-6">{d.info}</h1>
@@ -25,7 +25,7 @@ export default function TestimoCard({ imgW, imgH, imgSrc, DivH, DivW }) {
 
 const data = [
     {
-        name:"Ashish",
+        name:"John",
         post:"Internal Creative Officer",
         info:"Our vacation rental surpassed all expectations. Pure bliss!",
         Rate:"5.0",

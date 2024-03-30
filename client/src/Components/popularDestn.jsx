@@ -53,7 +53,7 @@ const popularDestn = () => {
                                     country={card.country}
                                     price={card.price}
                                 />
-                            </div>))}
+                            </div>))}   
                     </Slider>
                 </div>
             </div>
