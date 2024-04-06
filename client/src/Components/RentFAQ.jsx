@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
+// import Typography from '@mui/material/Typography';
+import { Typography, Button } from '@mui/material';
+// import { AddIcon, RemoveIcon } from "@mui/icons-material"
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import data from "../Dummy Data/rentFAQ.json";
-import { Button } from '@mui/material';
-
 
 const RentFAQ = () => {
 
@@ -37,7 +37,7 @@ const RentFAQ = () => {
                 <div className="flex space-x-4 justify-center mb-6">
                     {sections.map((section, index) => (
                         <Button key={index} variant={activeSectionIndex === index ? 'contained' : 'outlined'} onClick={() => handleSectionChange(index)} style={{
-                            color: activeSectionIndex === index ? 'white' : '#6F6C90', 
+                            color: activeSectionIndex === index ? 'white' : '#6F6C90',
                             backgroundColor: activeSectionIndex === index ? '#4AA5D2' : 'white',
                             borderRadius: '8px'
                         }}>{section.title}</Button>
@@ -52,7 +52,7 @@ const RentFAQ = () => {
                             onChange={handleChange(`panel${index + 1}-header`)}
                             className="my-3 p-4"
                             style={{
-                                border: expanded === `panel${index + 1}-header` ? '1px solid #4AA5D2' : '1px solid transparent', 
+                                border: expanded === `panel${index + 1}-header` ? '1px solid #4AA5D2' : '1px solid transparent',
                                 borderRadius: '4px',
                                 boxShadow: 'none',
                             }}
@@ -63,7 +63,7 @@ const RentFAQ = () => {
                                 id={`panel${index + 1}-header`}
                             >
                                 <Typography sx={{
-                                    fontSize: '18px', 
+                                    fontSize: '18px',
                                     fontWeight: 500,
                                     color: expanded === `panel${index + 1}-header` ? '#4AA5D2' : '#170F49',
                                 }} >{faq.question}</Typography>

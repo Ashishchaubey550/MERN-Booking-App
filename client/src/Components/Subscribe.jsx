@@ -1,7 +1,8 @@
 import React from 'react';
 import "../styles/Subscribe.scss";
 import { useState } from "react";
-import { Button } from '@mui/material';
+// import { Button } from '@mui/material';
+import CustomButton1 from './CustomButton1';
 
 const Subscribe = () => {
 

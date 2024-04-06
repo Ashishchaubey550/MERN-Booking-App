@@ -34,11 +34,11 @@ const popularDestn = () => {
                 <div className='popular-destn-heading'>
                     <h2 className="">Find Popular<br /> Destinations</h2>
                     <div className="arrow-icons">
-                        <IconButton>
-                            <PiCaretLeft onClick={handlePrev} style={{ margin: '5px', fontSize: '40px', color: 'white', border: '1px solid white', borderRadius: '20px', padding: '4px', cursor: 'pointer' }} />
+                        <IconButton onClick={handlePrev}>
+                            <PiCaretLeft  style={{ margin: '5px', fontSize: '40px', color: 'white', border: '1px solid white', borderRadius: '20px', padding: '4px', cursor: 'pointer' }} />
                         </IconButton>
-                        <IconButton>
-                            <PiCaretRight onClick={handleNext} style={{ margin: '5px', fontSize: '40px', color: 'white', padding: '4px', cursor: 'pointer' }} />
+                        <IconButton onClick={handleNext}>
+                            <PiCaretRight  style={{ margin: '5px', fontSize: '40px', color: 'white', padding: '4px', cursor: 'pointer' }} />
                         </IconButton>
                         
                     </div>

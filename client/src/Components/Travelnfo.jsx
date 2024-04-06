@@ -1,4 +1,6 @@
 // import { Button } from "@mui/material";
+import CustomButton1 from "./CustomButton1";
+import { CiSearch } from "react-icons/ci";
 
 export default function Travelnfo(){
     return(
@@ -50,7 +52,8 @@ export default function Travelnfo(){
                         </div>
                         <p className="w-[134px] h-[24px]  leading-6 text-sm font-normal text-left ">How many people?</p>
                     </div>
-                    <button className="w-[143px] h-[52px] rounded-2xl bg-BgOwnBlue m-auto "><p className="w-[92px] h-[17px]  font-bold m-auto p-0 text-sm leading-4 text-white">Explore Now</p></button>
+                    {/* <button className="w-[143px] h-[52px] rounded-2xl bg-BgOwnBlue m-auto "><p className="w-[92px] h-[17px]  font-bold m-auto p-0 text-sm leading-4 text-white">Explore Now</p></button> */}
+                    <CustomButton1 onClick={()=>alert("Clicked")} content="Explore Now" bgColor="#4aa5d2" textColor="white" hoverColor="white" hoverTextColor="#4aa5d2" borderRadius={16} hoverBorder="1px solid #4aa5d2" padding="10px 20px"/>
                 </div>
             </div>    
 

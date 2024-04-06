@@ -3,7 +3,8 @@ import "../styles/TrendyVacationCard.scss";
 import { FaRegUser } from "react-icons/fa6";
 import { IoLocationOutline } from "react-icons/io5";
 import { CiCalendar } from "react-icons/ci";
-import { Button } from '@mui/material';
+// import { Button } from '@mui/material';
+import CustomButton1 from './CustomButton1';
 
 const TrendyVacationCard = ({ city, country, imgUrl, price, discount, quote, days, peoples }) => {
     return (
@@ -39,7 +40,9 @@ const TrendyVacationCard = ({ city, country, imgUrl, price, discount, quote, day
             <div className="quote">
                 <span>{quote}</span>
             </div>
-            <Button variant="contained">Explore Now</Button>
+            {/* <Button variant="contained">Explore Now</Button> */}
+      <CustomButton1 content="Explore Now" variant="contained" transform="capitalize" bgColor="#4aa5d2" textColor="white" borderRadius={5} hoverColor="white" hoverTextColor="#4aa5d2" hoverBorder="1px solid #4aa5d2" padding={10}/>
+
 
         </div>
     )

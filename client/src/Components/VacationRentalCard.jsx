@@ -12,9 +12,11 @@ import { LiaStreetViewSolid } from "react-icons/lia";
 import { CiCalendar } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import { Rate } from 'antd';
-import { Button } from '@mui/material';
+// import { Button } from '@mui/material';
+import CustomButton1 from "./CustomButton1.jsx";
 
 const VacationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths, sleeps, views, reviews, home, star}) => {
+
   return (
     <div className="vac-rent-card">
       <img className="vac-image" src={imageUrl} alt="Destination" />
@@ -95,9 +97,10 @@ const VacationRentalCard = ({imageUrl, name, place, title, peoples, beds, baths,
         </div>   
       </div>
       
-      <Button variant="contained" startIcon={<CiSearch/>}>
+      {/* <Button variant="contained" startIcon={<CiSearch/>}>
         View Listing
-      </Button>
+      </Button> */}
+      <CustomButton1 content="View Listing"  onClick={() => {alert('Button clicked!') }} variant="contained" padding="10px 10px" transform="capitalize" bgColor="#4aa5d2" textColor="white" borderRadius={5} hoverColor="white" hoverTextColor="#4aa5d2" hoverBorder="1px solid #4aa5d2" icon={CiSearch}/>
     </div>
   );
 };
